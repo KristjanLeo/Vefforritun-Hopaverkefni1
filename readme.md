@@ -62,7 +62,7 @@ Skil skulu innihalda:
   * `StimmiKex`
   * `jonnigs`
   * `Tobbasn`
-  * ``
+  * `thth168`
 * Slóð á verkefnið keyrandi á vefnum
 
 ## Einkunn
