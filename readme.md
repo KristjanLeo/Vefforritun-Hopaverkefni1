@@ -10,6 +10,8 @@ Ekki þarf að útfæra neina virkni fyrir takka eða form.
 
 Hönnunin **er ekki fullkomin** og er ósamræmi í bilum, stærðum o.þ.h. Leyfilegt er að normalísera en hægt er að spyrja spurninga um hönnun á rásinni #2020-v1-hopverk1.
 
+[Hér má sjá yfirferð yfir Figma og hvernig er hægt að byrja verkefnið](https://www.youtube.com/watch?v=1CMZEbhzYPM).
+
 ## Hópavinna
 
 Verkefnið skal unnið í hóp með 3-4 einstaklingum. Hafið samband við kennara ef ekki er mögulegt að vinna í hóp. Hægt er að leita að félögum á slack á rásinni #2020-v1-vantar-hop
