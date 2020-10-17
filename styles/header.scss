@@ -7,7 +7,11 @@ header{
 .menu{
     flex-direction: row;
     justify-content: space-between;
-    width: 110%;
+    margin-top: 4rem;
+    width: auto !important; 
+}
+
+.yum{
 }
 
 h1{
@@ -19,7 +23,7 @@ p{
 }
 
 a{
-    color: 9B9B9B;
+    color: #9B9B9B;
     text-decoration: none;
 }
 
