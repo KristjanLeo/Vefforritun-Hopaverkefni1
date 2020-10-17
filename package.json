@@ -1,0 +1,19 @@
+{
+  "name": "vef1-2020-h1",
+  "version": "1.0.0",
+  "description": "Verkefnið felst í því að smíða vef eftir forskrift.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KristjanLeo/Vefforritun-Hopaverkefni1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KristjanLeo/Vefforritun-Hopaverkefni1/issues"
+  },
+  "homepage": "https://github.com/KristjanLeo/Vefforritun-Hopaverkefni1#readme"
+}
