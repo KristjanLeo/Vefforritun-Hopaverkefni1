@@ -1,0 +1,50 @@
+// Sækja breytur :
+@import './config';
+
+// Styles for the grid
+.col {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+}
+
+.grid {
+  margin: 0 auto;
+  max-width: 1290px;
+  overflow: hidden;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+/* Desktop */
+@for $i from 1 through 12 {
+  .col-#{$i} {
+    width: $i*8.3333333%;
+  }
+}
+@for $i from 1 through 3 {
+  .offset-col-#{$i} {
+    margin-left: $i*8.3333333%;
+  }
+}
+
+/* Mobile */
+@for $i from 1 through 12 {
+  @media (max-width: 560px) {
+    .col-sm-#{$i} {
+      width: $i*8.3333333%;
+    }
+  }
+}
+@for $i from 1 through 3 {
+  @media (max-width: 560px) {
+    .offset-col-sm-#{$i} {
+      margin-left: $i*8.3333333%;
+    }
+  }
+}
