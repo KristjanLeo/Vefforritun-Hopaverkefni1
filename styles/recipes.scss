@@ -30,8 +30,10 @@
   flex-direction: column;
   justify-content: space-between;
 
-  .img{
+  img {
     background-color: #F6F6F6;
+    object-fit: cover;
+    height: auto;
   }
 
   &:last-child{
