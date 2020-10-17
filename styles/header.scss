@@ -11,8 +11,6 @@ header{
     width: auto !important; 
 }
 
-.yum{
-}
 
 h1{
     font-size: 60px;
@@ -54,6 +52,16 @@ a{
 
 .hlidrad{
     margin-left: 1rem;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+}
+
+.bil{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 button{
