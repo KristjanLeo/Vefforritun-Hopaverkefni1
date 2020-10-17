@@ -1,0 +1,70 @@
+header{
+    display: flex;
+    flex-direction: column;
+    background: #fafafa;
+}
+
+.menu{
+    flex-direction: row;
+    justify-content: space-between;
+    width: 110%;
+}
+
+h1{
+    font-size: 60px;
+}
+
+p{
+    font-size:18px;
+}
+
+a{
+    color: 9B9B9B;
+    text-decoration: none;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.pp{
+    height: 500px;
+}
+
+.Hero{
+    flex-direction: row;
+    margin-left: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.colour{
+    color: #e3cdb1;
+}
+
+.text{
+    word-wrap: break-word;
+}
+
+.hlidrad{
+    margin-left: 1rem;
+}
+
+button{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 3rem;
+    border:1px solid #e3cdb1;
+    background-color: #fafafa;
+    color: #e3cdb1;
+    width: 50%;
+    height: 3rem;
+    
+    &:hover{
+        background-color:#e3cdb1;
+        color: #fafafa;
+        transition: ease-in-out 300ms;
+    }
+}
