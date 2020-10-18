@@ -28,7 +28,7 @@
     width: $i*8.3333333%;
   }
 }
-@for $i from 1 through 3 {
+@for $i from 1 through 12 {
   .offset-col-#{$i} {
     margin-left: $i*8.3333333%;
   }
@@ -42,7 +42,7 @@
     }
   }
 }
-@for $i from 1 through 3 {
+@for $i from 1 through 12 {
   @media (max-width: 560px) {
     .offset-col-sm-#{$i} {
       margin-left: $i*8.3333333%;
