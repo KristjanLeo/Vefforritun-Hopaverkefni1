@@ -1,6 +1,6 @@
 .thebook{
   background-color: #F7F1EB;
-  height: 670px;
+  height: 100vh;
   @media (max-width: 560px){
     height: 420px;
   }
@@ -30,8 +30,9 @@
   flex-direction: column;
   align-content: center;
   justify-content: center;
-}
+  overflow: visible;
 
+}
 
 .announcement-text {
   @media(max-width: 560px){
@@ -47,4 +48,16 @@
   @media(max-width: 560px){
     align-self: center;
   }
+}
+
+.book-img {
+  margin-left: calc(7*8.333333% + 15px);
+  img {
+    width: 100%;
+    margin-top: -250px;
+  }
+}
+
+.book-span {
+  height: 300px;
 }
