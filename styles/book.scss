@@ -1,11 +1,50 @@
 .thebook{
   background-color: #F7F1EB;
-  height: 50vh;
+  height: 670px;
+  @media (max-width: 560px){
+    height: 420px;
+  }
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+
+  h2 {
+    font-size: 3.75rem;
+    @media(max-width: 560px){
+      font-size: 2rem;
+    }
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .book-text {
+    color: #5E5B69;
+    font-size: 18px;
+  }
 }
 
 .bookcontainer {
-  height: 50vh;
   display: flex;
   flex-direction: column;
-  align-content: center
+  align-content: center;
+  justify-content: center;
+}
+
+
+.announcement-text {
+  @media(max-width: 560px){
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  }
+}
+
+.book-button{
+  @media(max-width: 560px){
+    align-self: center;
+  }
 }
