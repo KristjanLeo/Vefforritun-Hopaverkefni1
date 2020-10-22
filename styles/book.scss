@@ -40,20 +40,6 @@
     }
 }
 
-@media(max-width: 560px){
-    .book-title {
-      visibility: hidden;
-      position: relative;
-    }
-    .book-title:after {
-      visibility: visible;
-      position: absolute;
-      top: 0;
-      left: 0;
-      content: "Our book is out !";
-    }
-}
-
 .bookcontainer {
   display: flex;
   flex-direction: column;
