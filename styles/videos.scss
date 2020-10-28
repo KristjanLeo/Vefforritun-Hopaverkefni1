@@ -1,0 +1,93 @@
+// Styles for the video section on the homepage
+
+.video__recipes {
+  margin-bottom: 2rem;
+  margin-top: 12rem;
+
+  .col {
+    margin-bottom: 2rem;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  .video__title {
+    margin-bottom: 0;
+    margin-top: 1.5rem;
+  }
+}
+
+.video {
+  height: 100%;
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .firstimg {
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: rgba(227, 205, 177, 0.7);
+    object-fit: cover;
+    overflow: hidden;
+  }
+
+  img {
+    background-color: #F6F6F6;
+    object-fit: cover;
+    height: auto;
+  }
+
+  &:last-child{
+    margin-right: 0;
+  }
+
+  h3{
+    margin-bottom: 1rem;
+    font-size: 1.375rem;
+  }
+
+  .video__info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+
+  .video__info .video__info__left {
+    margin-left: 1rem;
+  }
+
+  .video__info .video__info__right {
+    margin-right: 1rem;
+  }
+}
+
+.video__month {
+  color : #9B9B9B;
+  font-size: 0.875rem;
+}
+.video__info__right {
+  a {
+    color : #E3CDB1;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+}
+
+#ImageUnder{
+  opacity: 30%;
+  position: relative;
+  background-color: transparent;
+}
+
+#PlayIcon{
+  position: absolute;
+  background-color: transparent;
+  top: calc(50% - 15px);
+  left: calc(50% - 15px);
+}
