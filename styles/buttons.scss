@@ -20,6 +20,7 @@ button{
     margin-top: 0;
     width: calc(30px + 2*8.333333%);
     margin: 0 8.333333%;
+    z-index: 1;
 }
 
 .horizontal-button {
