@@ -9,33 +9,44 @@
     <link rel="stylesheet" href="styles/grid-overlay.css">
 </head>
 <body>
-  <header class="grid">
-    <!--Lárétti menu barinn (Yum Yum, Recipeis videos ...)-->
-    <section class="row hlidrad menu col">
+  <header class="header grid col-12">
+    <div class="row col-12">
       <!-- Vinstri hlutinn-->
-      <img src="img/yum.svg" alt="" class="col-1">
+      <img src="img/yum.svg" alt="">
       <!--Hægri hlutinn-->
-      <div class="links col-2">
+      <div class="header__links col-4 offset-col-8">
         <a href="recipe.html">Recipes</a>
         <a href="">Videos</a>
         <a href="">About us</a>
       </div>
-    </section>
-    <!-- Hero Section-->
-    <section class="Hero row offset-col-sm-1">
-      <div class="hlidrad col-5">
-        <p class="colour"> Our latest recipe </p>
-        <h1>Pumpkin pie</h1>
-        <p class="text">
-          Pumpkin pie is a sweet dessert pie with a spiced,
-          pumkin-based custard  filling the pumpkin is a symbol of harvest time, and pumpkin is often eaten during the fall
-          and early winter
-        </p>
-        <button class="">See more</button>
-      </div>
-      <img src="img/cake-bg.png" alt="" class="pp">
-    </section>
+    </div>
   </header>
+    <!-- Hero Section-->
+  <section class="hero">
+    <div class="hero__grid">
+      <div class="hero__content">
+
+        <div class="hero__eyebrow">
+          <p class="Hero__eyebrow"> Our latest recipe </p>
+        </div>
+        
+        <h1 class="hero__title">Pumpkin pie</h1>
+        
+        <div class="hero__text">
+          <p>
+            Pumpkin pie is a sweet dessert pie with a spiced,
+            pumkin-based custard  filling the pumpkin is a symbol of harvest time, and pumpkin is often eaten during the fall
+            and early winter
+          </p>
+        </div>
+        
+        <div class="hero__button">
+          <button class="button">See more</button>
+        </div>
+      
+      </div>
+    </div>
+  </section>
   <main>
    <section class="recipes">
         <div class="grid">

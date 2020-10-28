@@ -68,6 +68,7 @@
   }
 }
 
+
 // Latest recipes page
 
 .All__recipes {
@@ -137,4 +138,191 @@
     text-decoration: none;
     font-size: 1rem;
   }
+
+// Styles for the recipes on the recipe html
+
+h3 {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 53px;
+  color: #D0D0D0;
+}
+
+h4 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 17px;
+  margin-bottom: 20px;
+
+  color: #000000;
+}
+
+.FTD {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #000000;
+  margin-top: 40px;
+}
+
+.FTD-text1 {
+p:first-of-type{margin-right: 50px;}
+p:first-of-type{color: #E3CDB1}
+p:first-of-type{font-family: Playfair Display;}
+p:first-of-type{font-style: normal;}
+p:first-of-type{font-weight: bold;}
+p:first-of-type{font-size: 36px;}
+p:first-of-type{line-height: 18px;}
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 17px;
+color: #9B9B9B;
+}
+
+.FTD-text2 {
+p:first-of-type{margin-right: 50px;}
+p:first-of-type{color: #E3CDB1}
+p:first-of-type{font-family: Playfair Display;}
+p:first-of-type{font-style: normal;}
+p:first-of-type{font-weight: bold;}
+p:first-of-type{font-size: 36px;}
+p:first-of-type{line-height: 18px;}
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 17px;
+color: #9B9B9B;
+}
+
+.FTD-text3 {
+p:first-of-type{margin-right: 50px;}
+p:first-of-type{color: #E3CDB1}
+p:first-of-type{font-family: Playfair Display;}
+p:first-of-type{font-style: normal;}
+p:first-of-type{font-weight: bold;}
+p:first-of-type{font-size: 36px;}
+p:first-of-type{line-height: 18px;}
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 17px;
+color: #9B9B9B;
+}
+
+.FTD-text4 {
+p:first-of-type{margin-right: 50px;}
+p:first-of-type{color: #E3CDB1}
+p:first-of-type{font-family: Playfair Display;}
+p:first-of-type{font-style: normal;}
+p:first-of-type{font-weight: bold;}
+p:first-of-type{font-size: 36px;}
+p:first-of-type{line-height: 18px;}
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 17px;
+color: #9B9B9B;
+}
+
+.FTF-text1 {
+p:first-of-type{margin-right: 50px;}
+p:first-of-type{color: #E3CDB1}
+p:first-of-type{font-family: Playfair Display;}
+p:first-of-type{font-style: normal;}
+p:first-of-type{font-weight: bold;}
+p:first-of-type{font-size: 36px;}
+p:first-of-type{line-height: 18px;}
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 17px;
+color: #9B9B9B;
+}
+
+.FTF-text2 {
+p:first-of-type{margin-right: 50px;}
+p:first-of-type{color: #E3CDB1}
+p:first-of-type{font-family: Playfair Display;}
+p:first-of-type{font-style: normal;}
+p:first-of-type{font-weight: bold;}
+p:first-of-type{font-size: 36px;}
+p:first-of-type{line-height: 18px;}
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 17px;
+color: #9B9B9B;
+}
+
+.FTF-text3 {
+p:first-of-type{margin-right: 50px;}
+p:first-of-type{color: #E3CDB1}
+p:first-of-type{font-family: Playfair Display;}
+p:first-of-type{font-style: normal;}
+p:first-of-type{font-weight: bold;}
+p:first-of-type{font-size: 36px;}
+p:first-of-type{line-height: 18px;}
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 17px;
+color: #9B9B9B;
+}
+
+.FTF-text4 {
+p:first-of-type{margin-right: 50px;}
+p:first-of-type{color: #E3CDB1}
+p:first-of-type{font-family: Playfair Display;}
+p:first-of-type{font-style: normal;}
+p:first-of-type{font-weight: bold;}
+p:first-of-type{font-size: 36px;}
+p:first-of-type{line-height: 18px;}
+font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 17px;
+color: #9B9B9B;
+}
+
+
+.FTF {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #000000;
+  margin: 0px 0px
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  width: calc(2*8.33333%);
+  justify-content: space-between;
+ }
+ 
+.Ingredients {
+  margin-left: 17px;
+
 }
