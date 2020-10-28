@@ -5,11 +5,15 @@ header{
     height: 50rem;
 }
 
+.header_latest{
+  height: auto;
+}
+
 .menu{
     flex-direction: row;
     justify-content: space-between;
     margin-top: 4rem;
-    width: auto !important; 
+    width: auto !important;
 }
 
 
