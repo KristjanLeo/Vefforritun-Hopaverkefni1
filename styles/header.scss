@@ -1,75 +1,63 @@
-header{
-    display: flex;
-    flex-direction: column;
-    background: #fafafa;
-    height: 50rem;
-}
-
-.menu{
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 4rem;
-    width: auto !important; 
-}
-
-
-h1{
-    font-size: 60px;
-}
-
-p{
-    font-size:18px;
-}
-
-a{
-    color: #9B9B9B;
-    text-decoration: none;
-}
-
-.links{
+.header{
+    width: 1290px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    max-width: 100%;
+    position: static;
+    &__logo{
+        display: flex;
+    }
+
+    &__links{
+        display: flex;
+        width: 16%;
+        justify-content: space-between;
+    }
 }
 
-.pp{
-    height: 550px;
-    object-fit: cover;
-}
 
-.Hero{
-    flex-direction: row;
-    margin-left: 1rem;
-    justify-content: space-between;
+.hero{
+    background-image: url(img/cake-bg.png);
+    background-color: #fafafa;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    min-height: 800px;
+    display: flex;
     align-items: center;
+    &__grid{
+        max-width: 1290px;
+        margin: 0 auto;
+    }
+
+    &__content{
+        max-width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    &__eyebrow{
+      font-size: 1rem;
+      color: #E3CDB1;
+    }
+
+    &__title{
+        font-size: 3.75rem;
+    }
+
+    &__text{
+        font-size: 1.125rem;
+    }
+
+    &__button{
+        max-width: 50%;
+    }
 }
 
-.colour{
-    color: #e3cdb1;
-}
-
-.text{
-    word-wrap: break-word;
-}
-
-.hlidrad{
-    margin-left: 1rem;
-}
-
-.icons{
-    display: flex;
-    flex-direction: row;
-}
-
-.bil{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
 
 button{
     padding-left: 1rem;
     padding-right: 1rem;
-    margin-top: 3rem;
     border:1px solid #e3cdb1;
     background-color: #fafafa;
     color: #e3cdb1;
