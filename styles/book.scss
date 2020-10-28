@@ -25,21 +25,6 @@
   }
 }
 
-@media(max-width: 560px){
-    .book-text {
-      visibility: hidden;
-      position: relative;
-    }
-    .book-text:after{
-      visibility: visible;
-      position: absolute;
-      top: 0;
-      left: 0;
-      content: "As you pour the first glass
-      of your favorite Chianti or Chardonnay";
-    }
-}
-
 .bookcontainer {
   display: flex;
   flex-direction: column;
