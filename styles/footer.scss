@@ -17,7 +17,7 @@ footer{
 }
 
 .craving{
-    color:bisque;
+    color:#E3CDB1;
 }
 
 .rem3{
@@ -58,5 +58,19 @@ padding-top: 6px;
     padding: 6px;
 }
 
+.button {
+    transition: ease-in-out 300ms;
+    background-color: black;
+    border: 1px solid #E3CDB1; 
+    color: #E3CDB1;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
 
-
+  .button:hover {
+    background-color:  #E3CDB1;; 
+    color: black;
+  }
