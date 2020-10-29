@@ -28,12 +28,12 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
-  font-size: 16px;
+  font-size: $default_font_size;
   justify-content: center;
 }
 
 
 .eyebrow {
-  font-size: 1rem;
+  font-size: $default_font_size;
   color: #E3CDB1;
 }

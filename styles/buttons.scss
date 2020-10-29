@@ -1,17 +1,21 @@
+@import './config';
+
+// Styles for the buttons
+
 button{
     padding-left: 1rem;
     padding-right: 1rem;
     margin-top: 3rem;
-    border:1px solid #e3cdb1;
-    background-color: #fafafa;
-    color: #e3cdb1;
+    border:1px solid $button_beige;
+    background-color: $button_white;
+    color: $button_beige;
     width: 50%;
     height: 3rem;
 
     &:hover{
-        background-color:#e3cdb1;
-        color: #fafafa;
-        transition: ease-in-out 300ms;
+        background-color: $button_beige;
+        color: $button_white;
+        transition: $button_transition;
     }
 }
 
