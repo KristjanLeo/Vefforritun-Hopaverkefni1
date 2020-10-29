@@ -8,7 +8,7 @@
 > Athugar hvort að kóðinn sé ekki að fylgja stylelint reglum. Lætur vita hverjar þær eru ef einhverjar finnast.
 ### Öllum skrám hefur verið raðað skipulega niður
 * styles mappan inniheldur allar skrár sem hafa að gera með útlit síðunnar. Þær eru
-  1. Global - Stílar sem eiga við allt
+  - Global - Stílar sem eiga við allt
   - Grid - Skýr beinagrind fyrir staðsetningar
   - Header - Allir stílar sem hafa að gera með hausinn
   - Footer - Allir stílar sem hafa að gera með fótinn
