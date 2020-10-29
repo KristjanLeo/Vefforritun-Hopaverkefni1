@@ -2,7 +2,7 @@
 
 .video__recipes {
   margin-bottom: 2rem;
-  margin-top: 12rem;
+  margin-top: 2rem;
 
   .col {
     margin-bottom: 2rem;
@@ -128,6 +128,10 @@
   .play{
     position: relative;
   }
+
+  @media(max-width: 560px){
+    margin-left: 1000px;
+  }
 }
 
 .play{
@@ -152,6 +156,11 @@
     font-weight: 700;
     line-height: 80px;
   }
+
+  @media(max-width: 560px){
+    margin: auto 8.3333%;
+    min-width: 91.66667vw;
+  }
 }
 
 .videoplay__icons{
@@ -165,8 +174,26 @@
     font-size: 18px;
     line-height: 17px;
     font-weight: 400;
-    margin-right: 40px;
+    margin-right: 3.2%;
     margin-top: 7px;
+  }
+
+  @media(max-width: 560px){
+    display: flex;
+    flex-direction: row;
+    width: 114.56px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    & p{
+      margin-top: 1rem;
+      margin-right: 0;
+      margin-left: 6.2%;
+    }
+
+    & img{
+      margin-top: 1rem;
+    }
   }
 }
 
@@ -180,7 +207,11 @@
 }
 
 .tutorial{
-  height: 1200px;
+  height: 1120px;
+
+  @media(max-width: 560px){
+    height: 1400px;
+  }
 }
 
 .tutorial__span{
@@ -197,6 +228,13 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  @media(max-width: 560px){
+    margin: auto;
+    margin-left: 8.33333%;
+    width: 100%;
+    margin-top: 50px;
+  }
 }
 .dough{
   height: 40%;
@@ -255,4 +293,9 @@
     line-height: 32px;
   }
 
+    @media(max-width: 560px){
+    margin: auto;
+    width: calc(100% - 2*8.333333%);
+    align-items: center;
+  }
 }
