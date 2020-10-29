@@ -26,4 +26,11 @@
   - Video - vídeo uppskrift fyrir tiltekna máltíð
 * **Styles.scss** skráin tekur síðan allar skrár úr styles möppunni og sameinar þær í nýtt skjal, **Styles.css**
   sem síðan er notað af öllum HTML síðunum
-  
+## 2. Upplýsingar um höfunda
+Colons can be used to align columns.
+| Nöfn                        | Netföng       | GitHub notendanöfn |
+| ----------------------------|:-------------:| ------------------:|
+| Karl Andersson Claesson     | kac12@hi.is   | KarlAClaesson      |
+| Kristján Leó Guðmundsson    | klg12@hi.is   | KristjanLeo        |
+| Sigurjón Þorri Þórmundarson | stt27@hi.is   | ThorriThorskur     |
+| Valdimar Örn Sverrirson     | vos9@hi.is    | Valdi9hi           |
