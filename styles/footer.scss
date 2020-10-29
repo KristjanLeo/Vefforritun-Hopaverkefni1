@@ -1,7 +1,7 @@
 footer{
     width: 100%;
     position: absolute;
-    bottom:-440px;
+    bottom:-740px;
 }
 
 .newsletter{
@@ -73,3 +73,31 @@ padding-top: 6px;
     background-color:  #E3CDB1;; 
     color: black;
   }
+
+  .social{
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    height: 330px;
+}
+
+.media-image{
+    position: relative;
+    width: 40px;
+    height: 40px;
+}
+
+.inner-image {
+    position:absolute;
+    top: 12px;
+    left: 31px;
+}
+
+.oval-image {
+    position:absolute;
+}
+
+.yamyam{
+    font: 0.7rem grey;
+}
+  
