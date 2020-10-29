@@ -9,15 +9,19 @@
     <link rel="stylesheet" href="styles/grid-overlay.css">
 </head>
 <body>
-  <header class="header grid">
-    <div class="header_row">
+  <header class="headergrid grid">
+    <div class="headerrow row">
       <!-- Vinstri hlutinn-->
-      <img src="img/yum.svg" alt="" class="header__logo">
+      <div class="headerleftside">
+        <a href="index.html">
+          <img src="img/yum.svg" alt="" class="headerlogo">
+        </a>
+      </div>
       <!--Hægri hlutinn-->
-      <div class="header__links col-4  offset-col-8">
+      <div class="headerright__side">
         <a href="recipe.html">Recipes</a>
-        <a href="">Videos</a>
-        <a href="">About us</a>
+        <a href="videorecipe.html">Videos</a>
+        <a href="#aboutus">About us</a>
       </div>
     </div>
   </header>
@@ -253,6 +257,9 @@
               <p class="email">Email</p>
               <input readonly value="email@example.com">
             </form>
+          </div>
+          <div class="col offset-col-10 email-margin">
+            <input type="button" class="button" value="Subscribe now">
           </div>
         </div>
       </div>
