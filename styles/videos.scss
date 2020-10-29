@@ -223,8 +223,20 @@
 .ingredient{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  max-width: 100px;
+  width: 100%;
+
+  & p:first-child{
+    margin-right: 16px;
+    font-size: 36px;
+    color: #E3CDB1;
+    font-weight: 700;
+  }
+
+  & p:last-child{
+    color: #9B9B9B;
+    line-height: 17px;
+    margin: auto 16px;
+  }
 }
 .method{
   margin: 0;
