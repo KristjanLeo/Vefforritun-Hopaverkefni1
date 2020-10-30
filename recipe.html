@@ -10,29 +10,33 @@
     </head>
 
     <body>
-        <header class="header grid col-12">
-    <div class="header__row col-12">
-      <!-- Vinstri hlutinn-->
-      <a href = "index.html" class="header__logo"><img src="img/yum.svg" alt=""><a>
-      <!--Hægri hlutinn-->
-      <div class="header__links col-4 offset-col-8">
-        <a href="recipe.html">Recipes</a>
-        <a href="">Videos</a>
-        <a href="">About us</a>
-      </div>
-    </div>
-  </header>
+        <header class="header__grid grid">
+          <div class="header__row row">
+            <!-- Vinstri hlutinn-->
+            <div class="header__left__side">
+              <a href="index.html">
+                <img src="img/yum.svg" alt="" class="header__logo">
+              </a>
+            </div>
+            <!--Hægri hlutinn-->
+            <div class="header__right__side">
+              <a href="recipe.html">Recipes</a>
+              <a href="videorecipe.html">Videos</a>
+              <a href="#aboutus">About us</a>
+            </div>
+          </div>
+        </header>
             <!-- Hero Section-->
         <section class="hero">
             <div class="hero__grid">
-                <div class="hero__content">    
+                <div class="hero__content">
                     <div class="hero__eyebrow">
                         <p class="Hero__eyebrow"> Our latest recipe </p>
                     </div>
-                    
+
                     <h1 class="hero__title">Pumpkin pie</h1>
-    
-                    <span class="hero__icons col-6">    
+
+                    <span class="hero__icons col-6">
                         <div class="hero__icon">
                             <img src="img/Hansk.png">
                             <p> <b>Easy</b> recipe</p>
@@ -46,14 +50,14 @@
                             <p> <b>1</b> hour</p>
                         </div>
                     </span>
-                    
+
                     <div class="hero__text">
                         <p>
                         Pumpkin pie is a sweet dessert pie with a spiced,
                         pumkin-based custard  filling the pumpkin is a symbol of harvest time, and pumpkin is often eaten during the fall
                         and early winter
                         </p>
-                    </div>            
+                    </div>
                 </div>
             </div>
           </section>
@@ -106,10 +110,10 @@
                             <p>Wrap the crackers in a tea towel and smash up until fine, breaking up any big bits with your hands, and put them into a large bowl.
                                 Finely chop the parsley, including the stalks. Add the parsley, mustard, if using, and minced beef to the bowl. Crack in the egg and add a good pinch of salt and pepper.
                                 With clean hands, scrunch and mix everything up well. Divide into 6 and pat and mould each piece into a roundish shape about 2cm thick. Drizzle the burgers with oil, put on a plate, cover and place in the fridge until needed (this helps them to firm up).
-                                
+
                                 Preheat a large griddle or frying pan for about 4 minutes on a high heat. Turn the heat down to medium.
                                 Place the burgers on the griddle or in the pan and use a spatula to lightly press down on them, making sure the burger is in full contact. Cook them to your liking for 3 or 4 minutes on each side – you may need to cook them in two batches.
-                                
+
                                 Wash and dry a few small lettuce leaves, tearing up the larger ones. Slice the tomatoes. Peel and finely slice the red onion. Slice the gherkins lengthways as finely as you can. Place all this on a platter and put in the middle of the table with plates, cutlery, ketchup and drinks.
                                 Remove your burgers to another plate and carefully wipe your pan or griddle clean with kitchen paper.
                                 Halve your burger buns and lightly toast them on the griddle or in the pan. Also great with a chopped salad.</p>
@@ -135,7 +139,55 @@
                     </div>
                     <button>See more</button>
                 </section>
-    </body>                 
+                  <footer>
+    <div id="aboutus" class="newsletter">
+      <div class="grid"></div>
+        <div class="row">
+          <div class="col col-4 offset-col-1 col-sm-10 offset-col-sm-1 subscribe subscribe-sm">
+            <p class="craving craving-sm">Craving more?</p>
+            <p> Subscribe to our newsletter</p>
+          </div>
+          <div class="col col-3 col-sm-10 offset-col-sm-1 email-margin email-margin-sm">
+            <form>
+              <p>Email</p>
+              <input placeholder="Enter your mail here" type="email" id="email" name="email">
+              <p class="email">Email</p>
+              <input readonly value="email@example.com">
+            </form>
+          </div>
+          <div class="col col-4 col-sm-10 offset-col-sm-1 button-margin button-margin-sm">
+            <input type="button" class="button button-sm" value="Subscribe now">
+          </div>
+        </div>
+      </div>
+      </div>
+    <div class="social">
+        <p class="join">Come and join us for more recipes</p>
+          <div class="grid">
+            <div class="row">
+              <div class="col col 12">
+                <div class="flex-zone">
+                  <div class="media-image">
+                  <img src="img/oval2.png" class="oval-image">
+                  <img src="img/facebook.png" class="inner-image">
+                  </div>
+                  <div class="media-image">
+                    <img src="img/oval2.png" class="oval-image">
+                    <img src="img/twitter.png" class="inner-image">
+                  </div>
+                  <div class="media-image">
+                    <img src="img/oval2.png" class="oval-image">
+                    <img src="img/youtube.png" class="inner-image">
+                  </div>
+                </div>
+                <p class="yamyam">yamyam.com</p>
+             </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </footer>
+    </body>
 </html>
 
 
