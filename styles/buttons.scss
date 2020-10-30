@@ -11,6 +11,10 @@ button{
     color: $button_beige;
     width: 50%;
     height: 3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
 
     &:hover{
         background-color: $button_beige;
