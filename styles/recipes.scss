@@ -9,6 +9,9 @@
 
   h2 {
     font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    line-height: 53.32px;
   }
 
   .recipes__title {
@@ -59,12 +62,25 @@
 .recipe__month {
   color : #9B9B9B;
   font-size: 0.875rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+.recipe__name{
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
 }
 .recipe__info__left {
   a {
     color : #E3CDB1;
     text-decoration: none;
     font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
   }
 }
 
@@ -170,16 +186,16 @@
   color: black;
 }
 // Styles for the recipes on the recipe html
-
-h3 {
-  font-family: Playfair Display;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 53px;
-  color: #D0D0D0;
+.Ingredients{
+  h3 {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 53px;
+    color: #D0D0D0;
+  }
 }
-
 h4 {
   font-family: Poppins;
   font-style: normal;
