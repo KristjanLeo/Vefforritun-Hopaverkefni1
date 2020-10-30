@@ -3,11 +3,20 @@
     width: 1290px;
     margin: 0 auto;
     display: flex;
-    height: 50rem;
-}
+    &__button{
+        max-width: 50%;
+    }
 
-.header_latest{
-  height: auto;
+    &__icons{
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__icon{
+        display: flex;
+        flex_direction:row;
+        justify-content: space-between;
+    }
 }
 
 .header__row{
