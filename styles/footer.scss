@@ -14,6 +14,7 @@ footer{
 
 .subscribe{
     margin-top:120px;
+    margin-left:60px;
 }
 
 .craving{
@@ -31,6 +32,7 @@ input{
     background-color: black;
     color:white;
     outline: none;
+
 }.placeholder2{
     ::placeholder {
         color:white;
@@ -45,7 +47,7 @@ input{
 
 
 .email-margin{
-    margin-top: -120px;
+    margin-top: auto;
 }
 
 .email{
@@ -60,10 +62,32 @@ padding-top: 6px;
 
 footer{
   .button:hover {
+    transition: 300ms ease-in-out;
     background-color:  #E3CDB1;;
     color: black;
   }
 }
+footer{
+    .button{
+        width: 250px;
+        height: 52px;
+        border:1px solid #E3CDB1;
+        background-color:black;;
+        color:#E3CDB1;
+    }
+}
+
+/* Mobile */
+ @media (max-width: 560px) {
+     .button-sm{
+        width: 192px;
+        height: 52px;
+        border:1px solid #E3CDB1;
+        background-color:black;;
+        color:#E3CDB1;
+     }
+ }
+      
   .social{
     text-align: center;
     background-color: white;
@@ -72,15 +96,16 @@ footer{
 }
 
 .media-image{
+    height: 50px;
     position: relative;
-    width: 40px;
-    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .inner-image {
     position:absolute;
-    top: 12px;
-    left: 31px;
+
 }
 
 .oval-image {
@@ -91,3 +116,9 @@ footer{
     font: 0.7rem grey;
 }
 
+.flex-zone{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 150px;
+}
