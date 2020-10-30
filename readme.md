@@ -30,4 +30,4 @@
 | Karl Andersson Claesson     | kac12@hi.is   | KarlAClaesson |
 | Kristján Leó Guðmundsson    | klg12@hi.is   | KristjanLeo   |
 | Sigurjón Þorri Þórmundarson | stt27@hi.is   | ThorriThorskur|
-| Valdimar Örn Sverrirson     | vos9@hi.is    | Valdi9hi      |
+| Valdimar Örn Sverrisson     | vos9@hi.is    | Valdi9hi      |
