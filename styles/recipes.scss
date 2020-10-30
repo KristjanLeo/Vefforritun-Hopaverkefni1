@@ -105,7 +105,10 @@
   }
 
   h2 {
-    font-size: 40px;
+    font-size: 60px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    line-height: 80px;
   }
 
   .All__recipes__title {
@@ -124,10 +127,12 @@
     flex-direction: row;
     justify-content: space-between;
     padding-left: 20px;
+    align-items: center;
   }
 }
 
 .show__video__only{
+  font-family: 'Playfair Display', serif;
   font-size: 22px;
   font-weight: 700;
   line-height: 40px;
@@ -181,12 +186,23 @@
 .All__month {
   color : #9B9B9B;
   font-size: 0.875rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.All__name{
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
 }
 .All__info__right {
   a {
     color : #E3CDB1;
     text-decoration: none;
     font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
   }
 }
 
