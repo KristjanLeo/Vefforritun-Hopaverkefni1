@@ -241,7 +241,7 @@ h4 {
   justify-content: space-between;
  }
 
-.recipe_cards_all { 
+.recipe_cards_all {
   margin-bottom: 0;
   margin-top: 1.5rem;
 }
@@ -253,7 +253,7 @@ h4 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-} 
+}
 
 .recipe_text {
   display: flex;
@@ -288,14 +288,16 @@ h4 {
     font-size: 1rem;
   }
 }
-
-img {
-  background-color: #F6F6F6;
-  object-fit: cover;
-  height: auto;
-  max-height: 390px;
-  max-width: 409px;
+.Recipe_card{
+  img {
+    background-color: #F6F6F6;
+    object-fit: cover;
+    height: auto;
+    max-height: 390px;
+    max-width: 409px;
+  }
 }
+
 
 .recipe_work {
   .col{
