@@ -64,10 +64,15 @@
   img {
     width: 100%;
     margin-top: -250px;
+    background: rgba(0, 0, 0, 0.0001);
+    box-shadow: -31px 18px 0px #ececec;
   }
   @media(max-width: 560px){
     margin: auto;
     margin-top: 270px;
+    img{
+      box-shadow: -13px 8px 0px #ececec;
+    }
   }
 }
 
