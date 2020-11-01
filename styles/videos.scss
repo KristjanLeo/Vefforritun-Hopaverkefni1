@@ -22,6 +22,13 @@
   margin-top: 12rem;
 }
 
+.video__check__title{
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 53px;
+}
+
 .video {
   height: 100%;
   position: relative;
@@ -75,7 +82,18 @@
 .video__month {
   color : #9B9B9B;
   font-size: 0.875rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  line-height: 21px;
 }
+
+.video__name{
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 29px;
+}
+
 .video__info__right {
   a {
     color : #E3CDB1;
@@ -276,13 +294,24 @@
     font-size: 36px;
     color: #E3CDB1;
     font-weight: 700;
+    line-height: 18px;
   }
 
   & p:last-child{
     color: #9B9B9B;
     line-height: 17px;
     margin: auto 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
   }
+}
+
+.ingredients__title{
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 53px;
+  color: #D0D0D0;
 }
 .method{
   margin: 0;
@@ -299,6 +328,10 @@
     flex-direction: column;
     justify-content: space-between;
     line-height: 32px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #5E5B69;
   }
 
     @media(max-width: 560px){
@@ -306,4 +339,12 @@
     width: calc(100% - 2*8.333333%);
     align-items: center;
   }
+}
+
+.method__title{
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 53px;
+  color: #D0D0D0;
 }
