@@ -156,6 +156,7 @@
   justify-content: space-between;
 
   & h1{
+    font-family: 'Playfair Display', serif;
     color: white;
     font-size: 60px;
     font-weight: 700;
@@ -181,12 +182,13 @@
     font-weight: 400;
     margin-right: 3.2%;
     margin-top: 7px;
+    font-family: 'Poppins', sans-serif;
   }
 
   @media(max-width: 560px){
     display: flex;
     flex-direction: row;
-    width: 114.56px;
+    width: 136px;
     flex-wrap: wrap;
     justify-content: flex-start;
 
@@ -209,6 +211,7 @@
   width: 80%;
   font-size: 18px;
   font-weight: 300;
+  font-family: 'Poppins', sans-serif;
 }
 
 .tutorial{
