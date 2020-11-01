@@ -21,14 +21,18 @@ footer{
 .subscribe{
     font-size: 40px;
     margin-top: auto;
-    margin-bottom: 130px;
+    margin-bottom: 140px;
 }
 
-@media(max-width:800px){
+@media(max-width:1000px){
     .subscribe-m{
-        margin-bottom: 35px;
+        margin-bottom: 65px;
     }
 }
+
+
+
+
 @media(min-width: 560px) {
     .subscribe__title{
     font-family: 'Playfair Display', serif;
@@ -83,12 +87,12 @@ input{
 
 
 .email-margin{
-    margin-top: 70px;
+    margin-top: 60px;
 }
 /*mobil*/
 @media (max-width:560px){
     .email-margin-sm{
-        margin:auto;
+        margin-top:-105px;
         display: flex;
         justify-content: center;
     }
@@ -102,7 +106,7 @@ input{
     justify-content: flex-end;
 }
 
-@media (max-width:800px){
+@media (max-width:1000px){
     @media (min-width:560px){
         .email-margin-m{
             margin-right: 100px;
@@ -154,9 +158,10 @@ footer{
 }
 
 /*media*/
- @media (max-width: 800px) {
+ @media (max-width: 1000px) {
     footer{
      .button-sm{
+        margin-top: -60px;
         width: 192px;
         height: 52px;
         border:1px solid #E3CDB1;
@@ -225,3 +230,14 @@ footer{
   font-weight: 700;
   line-height: 30px;
 }
+
+@media(max-width:560px){
+    .invisible{
+        visibility: hidden;
+    }
+}
+
+.line{
+    margin-bottom: 100px;
+}
+
