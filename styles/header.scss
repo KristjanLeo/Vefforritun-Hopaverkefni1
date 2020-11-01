@@ -75,15 +75,23 @@
       font-size: 1rem;
       color: #E3CDB1;
       font-family: 'Poppins', sans-serif;
+      line-height: 24px;
+      font-weight: 500;
     }
 
 
     &__title{
         font-size: 3.75rem;
+        font-family: 'Playfair Display', serif;
+        line-height: 80px;
+        font-weight: 700;
     }
 
     &__text{
         font-size: 1.125rem;
+        color: #5E5B69;
+        font-weight: 300;
+        font-family: 'Poppins', sans-serif;
     }
 
     &__button{
