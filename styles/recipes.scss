@@ -94,6 +94,15 @@
   }
 }
 
+.read_more_box3 {
+  margin-top:27px;
+}
+
+// All recipes Read more link
+
+.read_more_box2{
+  margin-top: 37px;
+}
 
 // Latest recipes page
 
@@ -281,12 +290,18 @@ h4 {
   font-weight: bold;
 }
 
-.read_more_right {
-  a {
-    color : #E3CDB1;
-    text-decoration: none;
-    font-size: 1rem;
-  }
+.read_more_box {
+  margin-top: 17px;
+}
+
+.read_more_right a {
+  color: #E3CDB1;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  margin-right: 26px;
 }
 .Recipe_card{
   img {
