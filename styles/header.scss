@@ -1,3 +1,19 @@
+button {
+  background-color: #fafafa;
+  border: 1px solid #e3cdb1;
+  color: #e3cdb1;
+  height: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  width: 100%;
+
+  &:hover {
+    background-color: #e3cdb1;
+    color: #fafafa;
+    transition: ease-in-out 300ms;
+  }
+}
+
 .header {
   background-color: #fafafa;
   padding-bottom: 1.5rem;
@@ -250,20 +266,21 @@
 
     &-nav-items a {
       color: $black;
-      font-family: 'Playfair-Display', 'serif';
+      font-family: 'Playfair-Display', serif;
       font-weight: 700;
       text-decoration: none;
     }
 
-    & ul {
-      display:flex;
+    ul {
+      display: flex;
       flex-direction: column;
       list-style-type: none;
     }
   }
-  .hero {  
+
+  .hero {
     background-position: bottom left;
-        
+
     &-content {
       align-content: center;
       display: flex;
@@ -272,7 +289,7 @@
       max-width: none;
       width: 100% !important;
     }
-  
+
     &-eyebrow {
       display: flex;
       justify-content: center;
@@ -303,21 +320,7 @@
     }
 
     &-button button {
-      background-color: transparent;   
+      background-color: transparent;
     }
-  }       
-}
-button {
-  background-color: #fafafa;
-  border:1px solid #e3cdb1;
-  color: #e3cdb1;
-  height: 3rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
-  width: 100%;
-  &:hover {
-    background-color: #e3cdb1;
-    color: #fafafa;
-    transition: ease-in-out 300ms;
   }
 }
