@@ -1,6 +1,6 @@
 // Styles for the video section on the homepage
 
-.video__recipes {
+.video-recipes {
   margin-bottom: 2rem;
 
   .col {
@@ -11,14 +11,14 @@
     font-size: 40px;
   }
 
-  .video__title {
+  .video-title {
     margin-bottom: 0;
     margin-top: 1.5rem;
   }
 }
 
 @media(max-width: 560px){
-  .video__title{
+  .video-title{
     margin: auto;
     align-content: center;
     align-items: center;
@@ -26,11 +26,11 @@
     flex-direction: column;
   }
 }
-.video__recipes__home{
+.video-recipes-home{
   margin-top: 12rem;
 }
 
-.video__check__title{
+.video-check-title{
   font-family: 'Playfair Display', serif;
   font-weight: 700;
   font-size: 40px;
@@ -72,23 +72,23 @@
     font-size: 1.375rem;
   }
 
-  .video__info {
+  .video-info {
     display: flex;
     justify-content: space-between;
     width: 100%;
     margin-top: 1.5rem;
   }
 
-  .video__info .video__info__left {
+  .video-info .video-info-left {
     margin-left: 1rem;
   }
 
-  .video__info .video__info__right {
+  .video-info .video-info-right {
     margin-right: 1rem;
   }
 }
 
-.video__month {
+.video-month {
   color : #9B9B9B;
   font-size: 0.875rem;
   font-family: 'Poppins', sans-serif;
@@ -96,14 +96,14 @@
   line-height: 21px;
 }
 
-.video__name{
+.video-name{
   font-family: 'Playfair Display', serif;
   font-weight: 700;
   font-size: 22px;
   line-height: 29px;
 }
 
-.video__info__right {
+.video-info-right {
   a {
     color : #E3CDB1;
     text-decoration: none;
@@ -141,17 +141,17 @@
   }
 }
 
-.video__span{
+.video-span{
   height: 100%;
 }
 
-.video__column{
+.video-column{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.video__right__side{
+.video-right-side{
   position: relative;
   display: flex;
   align-content: center;
@@ -176,7 +176,7 @@
   }
 }
 
-.video__left__side{
+.video-left-side{
   margin: auto auto;
   display: flex;
   flex-direction: column;
@@ -196,7 +196,7 @@
   }
 }
 
-.videoplay__icons{
+.videoplay-icons{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -231,7 +231,7 @@
   }
 }
 
-.videoplay__info{
+.videoplay-info{
   margin-top: 1rem;
   color: #9B9B9B;
   line-height: 32px;
@@ -249,7 +249,7 @@
   }
 }
 
-.tutorial__span{
+.tutorial-span{
   height: 100%;
   display: flex;
   flex-direction: row;
@@ -281,7 +281,7 @@
   height: 40%;
 }
 
-.dough__content{
+.dough-content{
   height: 70%;
   display: flex;
   flex-direction: column;
@@ -292,7 +292,7 @@
   height: 40%;
 }
 
-.filling__content{
+.filling-content{
   height: 70%;
   display: flex;
   flex-direction: column;
@@ -321,7 +321,7 @@
   }
 }
 
-.ingredients__title{
+.ingredients-title{
   font-family: 'Playfair Display', serif;
   font-weight: 700;
   font-size: 40px;
@@ -337,7 +337,7 @@
     margin-bottom: 1rem;
   }
 
-  .method__text{
+  .method-text{
     height: 750px;
     display: flex;
     flex-direction: column;
@@ -356,7 +356,7 @@
   }
 }
 
-.method__title{
+.method-title{
   font-family: 'Playfair Display', serif;
   font-weight: 700;
   font-size: 40px;
