@@ -14,6 +14,11 @@ footer {
       width: 192px;
     }
   }
+  .button:hover {
+    background-color: $baise;
+    color: $black;
+    transition: 300ms ease-in-out;
+  }
 }
 
 .black {
@@ -44,8 +49,8 @@ footer {
 
   @media (max-width: 560px) {
     font-size: 20px;
+    line-height: normal;
     text-align: center;
-    line-height: normal;  
   }
 }
 
@@ -62,11 +67,15 @@ footer {
 
 input {
   background-color: $black;
-  border: none;
+  border: 0;
   border-bottom: 2px solid $white;
   color: $white;
   outline: none;
   padding: 6px;
+}
+
+::placeholder {
+  color: $grey;
 }
 
 .placeholder2 {
@@ -75,15 +84,10 @@ input {
   }
 }
 
-::placeholder {
-  color: grey;
-}
-
 .email-margin {
   margin-top: 60px;
 
   @media (max-width: 1000px) {
-
     @media (min-width: 560px) {
       margin-right: 100px;
     }
@@ -93,21 +97,21 @@ input {
     display: flex;
     justify-content: center;
     margin-top: -105px;
-    }
+  }
 }
 
 .email {
   padding-top: 6px;
 }
 
-.email__header {
+.email-header {
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 21px;
 }
 
-.email__example {
+.email-example {
   border-bottom: 1px solid $white;
   padding: 6px;
   width: 50%;
@@ -125,14 +129,6 @@ input {
   @media (max-width: 560px) {
     justify-content: center;
     margin-top: auto;
-  }
-}
-
-footer {
-  .button:hover {
-    background-color: $baise;
-    color: $black;
-    transition: 300ms ease-in-out;
   }
 }
 
@@ -162,7 +158,7 @@ footer {
 }
 
 .yamyam {
-  color: lightgrey;
+  color: $lightgrey;
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
   margin-top: 10px;
@@ -188,16 +184,16 @@ footer {
   font-weight: 700;
   line-height: 30px;
 }
-  
+
 #email__example {
   font-family: 'Playfair Display', serif;
   font-size: 22px;
   font-weight: 700;
   line-height: 30px;
 }
-  
+
 @media (max-width: 560px) {
   .invisible {
-  visibility: hidden;
+    visibility: hidden;
   }
 }
