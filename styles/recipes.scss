@@ -325,6 +325,7 @@ h4 {
   line-height: 24px;
   margin-right: 26px;
   text-decoration: none;
+
 }
 
 .recipe_work {
@@ -333,4 +334,13 @@ h4 {
   }
 
   margin-top: 1rem;
+}
+
+.latestrecipes__title{
+  h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 53.32px;
+  }
 }
