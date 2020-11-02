@@ -18,6 +18,15 @@
   }
 }
 
+@media(max-width: 560px){
+  .video__title{
+    margin: auto;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
 .video__recipes__home{
   margin-top: 12rem;
 }
