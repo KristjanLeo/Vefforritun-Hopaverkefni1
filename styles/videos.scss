@@ -24,34 +24,34 @@
 
 .video__check__title{
   font-family: 'Playfair Display', serif;
-  font-weight: 700;
   font-size: 40px;
+  font-weight: 700;
   line-height: 53px;
 }
 
 .video {
-  height: 100%;
-  position: relative;
-  width: 100%;
   display: flex;
   flex-direction: column;
+  height: 100%;
   justify-content: space-between;
+  position: relative;
+  width: 100%;
 
   .firstimg {
-    position: relative;
-    justify-content: center;
     align-content: center;
     align-items: center;
     background-color: rgba(227, 205, 177, 0.7);
+    height: 230px;
+    justify-content: center;
     object-fit: cover;
     overflow: hidden;
-    height: 230px;
+    position: relative;
   }
 
   img {
     background-color: #F6F6F6;
-    object-fit: cover;
     height: auto;
+    object-fit: cover;
   }
 
   &:last-child{
@@ -59,15 +59,15 @@
   }
 
   h3{
-    margin-bottom: 1rem;
     font-size: 1.375rem;
+    margin-bottom: 1rem;
   }
 
   .video__info {
     display: flex;
     justify-content: space-between;
-    width: 100%;
     margin-top: 1.5rem;
+    width: 100%;
   }
 
   .video__info .video__info__left {
@@ -81,47 +81,47 @@
 
 .video__month {
   color : #9B9B9B;
-  font-size: 0.875rem;
   font-family: 'Poppins', sans-serif;
+  font-size: 0.875rem;
   font-weight: 300;
   line-height: 21px;
 }
 
 .video__name{
   font-family: 'Playfair Display', serif;
-  font-weight: 700;
   font-size: 22px;
+  font-weight: 700;
   line-height: 29px;
 }
 
 .video__info__right {
   a {
     color : #E3CDB1;
-    text-decoration: none;
     font-size: 1rem;
+    text-decoration: none;
   }
 }
 
 #ImageUnder{
+  background-color: transparent;
   opacity: 30%;
   position: relative;
-  background-color: transparent;
 }
 
 #PlayIcon{
-  position: absolute;
   background-color: transparent;
-  top: calc(50% - 15px);
   left: calc(50% - 15px);
+  position: absolute;
+  top: calc(50% - 15px);
 }
 
 
 // Styles for the video pages
 
 .videoplay{
-  background: url("img/Shadow.png"), url("img/VideoIMG.png");
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: cover;
+  background: url("img/Shadow.png"), url("img/VideoIMG.png");
   height: 570px;
   margin-top: 5rem;
 }
@@ -143,11 +143,11 @@
 }
 
 .video__right__side{
-  position: relative;
-  display: flex;
   align-content: center;
   align-items: center;
+  display: flex;
   justify-content: center;
+  position: relative;
   .play{
     position: relative;
   }
@@ -158,8 +158,8 @@
 }
 
 .play{
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: center;
 
   & img {
@@ -168,14 +168,14 @@
 }
 
 .video__left__side{
-  margin: auto auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin: auto auto;
 
   & h1{
-    font-family: 'Playfair Display', serif;
     color: white;
+    font-family: 'Playfair Display', serif;
     font-size: 60px;
     font-weight: 700;
     line-height: 80px;
@@ -195,25 +195,25 @@
 
   & p{
     color: white;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
-    line-height: 17px;
     font-weight: 400;
+    line-height: 17px;
     margin-right: 3.2%;
     margin-top: 7px;
-    font-family: 'Poppins', sans-serif;
   }
 
   @media(max-width: 560px){
     display: flex;
     flex-direction: row;
-    width: 136px;
     flex-wrap: wrap;
     justify-content: flex-start;
+    width: 136px;
 
     & p{
-      margin-top: 1rem;
-      margin-right: 0;
       margin-left: 6.2%;
+      margin-right: 0;
+      margin-top: 1rem;
     }
 
     & img{
@@ -223,13 +223,13 @@
 }
 
 .videoplay__info{
-  margin-top: 1rem;
   color: #9B9B9B;
-  line-height: 32px;
-  width: 80%;
+  font-family: 'Poppins', sans-serif;
   font-size: 18px;
   font-weight: 300;
-  font-family: 'Poppins', sans-serif;
+  line-height: 32px;
+  margin-top: 1rem;
+  width: 80%;
 }
 
 .tutorial{
@@ -241,25 +241,25 @@
 }
 
 .tutorial__span{
-  height: 100%;
   display: flex;
   flex-direction: row;
+  height: 100%;
   justify-content: space-between}
 
 .ingredients{
-  margin: 0;
-  margin-top: 120px;
-  height: 570px;
-  margin-left: 0;
   display: flex;
   flex-direction: column;
+  height: 570px;
   justify-content: space-between;
+  margin-left: 0;
+  margin-top: 120px;
+  margin: 0;
 
   @media(max-width: 560px){
-    margin: auto;
     margin-left: 8.33333%;
-    width: 100%;
     margin-top: 50px;
+    margin: auto;
+    width: 100%;
   }
 }
 .dough{
@@ -267,9 +267,9 @@
 }
 
 .dough__content{
-  height: 70%;
   display: flex;
   flex-direction: column;
+  height: 70%;
   justify-content: space-between;
 }
 
@@ -278,9 +278,9 @@
 }
 
 .filling__content{
-  height: 70%;
   display: flex;
   flex-direction: column;
+  height: 70%;
   justify-content: space-between;
 }
 
@@ -290,61 +290,61 @@
   width: 100%;
 
   & p:first-child{
-    margin-right: 16px;
-    font-size: 36px;
     color: #E3CDB1;
+    font-size: 36px;
     font-weight: 700;
     line-height: 18px;
+    margin-right: 16px;
   }
 
   & p:last-child{
     color: #9B9B9B;
-    line-height: 17px;
-    margin: auto 16px;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
+    line-height: 17px;
+    margin: auto 16px;
   }
 }
 
 .ingredients__title{
-  font-family: 'Playfair Display', serif;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 53px;
   color: #D0D0D0;
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 53px;
 }
 .method{
-  margin: 0;
-  margin-top: 90px;
   height: 850px;
+  margin-top: 90px;
+  margin: 0;
 
   & h3{
     margin-bottom: 1rem;
   }
 
   .method__text{
-    height: 750px;
+    color: #5E5B69;
     display: flex;
     flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    height: 750px;
     justify-content: space-between;
     line-height: 32px;
-    font-size: 18px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    color: #5E5B69;
   }
 
     @media(max-width: 560px){
+    align-items: center;
     margin: auto;
     width: calc(100% - 2*8.333333%);
-    align-items: center;
   }
 }
 
 .method__title{
-  font-family: 'Playfair Display', serif;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 53px;
   color: #D0D0D0;
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 53px;
 }

@@ -1,45 +1,44 @@
 .header{
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
     background-color: #FFFFFF;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
     position: fixed;
     top: 0px;
-    z-index: 9999;
     width: 100%;
+    z-index: 9999;
 
     &__button{
         max-width: 50%;
     }
 
     &__row{
-        width: calc(100% + 30px);
-        max-width: 1310px;
-
+        align-items: center;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        align-items: center;
         margin-bottom: 0rem !important;
+        max-width: 1310px;
+        width: calc(100% + 30px);
     }
 
     &__grid{
-        width: 100%;
-        margin: 0 auto;
         display: flex;
+        margin: 0 auto;
+        width: 100%;
     }
 
     &__right__side{
-        width: 50%;
-        margin-right: 1rem;
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
+        margin-right: 1rem;
+        width: 50%;
         a{
             align-self: flex-end;
-            margin-right: 15px;
             color: #9B9B9B;
-            text-decoration: none;
             font-family: 'Poppins', sans-serif;
+            margin-right: 15px;
+            text-decoration: none;
         }
     }
 
@@ -50,48 +49,48 @@
 
 
 .hero{
-    background-image: url(img/cake-bg.png);
     background-color: #fafafa;
-    background-repeat: no-repeat;
+    background-image: url(img/cake-bg.png);
     background-position: bottom right;
+    background-repeat: no-repeat;
     width: 100%;
     &__grid{
-        max-width: 1290px;
-        margin: 0 auto;
-        min-height: 800px;
-        display: flex;
         align-items: center;
+        display: flex;
         margin-top: 4.5rem;
+        margin: 0 auto;
+        max-width: 1290px;
+        min-height: 800px;
     }
 
     &__content{
-        max-width: 50%;
+        align-content: center;
         display: flex;
         flex-direction: column;
-        align-content: center;
+        max-width: 50%;
     }
 
     &__eyebrow{
-      font-size: 1rem;
       color: #E3CDB1;
       font-family: 'Poppins', sans-serif;
-      line-height: 24px;
+      font-size: 1rem;
       font-weight: 500;
+      line-height: 24px;
     }
 
 
     &__title{
-        font-size: 3.75rem;
         font-family: 'Playfair Display', serif;
-        line-height: 80px;
+        font-size: 3.75rem;
         font-weight: 700;
+        line-height: 80px;
     }
 
     &__text{
-        font-size: 1.125rem;
         color: #5E5B69;
-        font-weight: 300;
         font-family: 'Poppins', sans-serif;
+        font-size: 1.125rem;
+        font-weight: 300;
     }
 
     &__button{
@@ -99,9 +98,9 @@
     }
 
     &__icons {
-    justify-content: space-between;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     margin-bottom: 1rem;
     margin-top: 1rem;
     width: 80%;
@@ -119,13 +118,13 @@
 }
 
 button{
+    background-color: #fafafa;
+    border:1px solid #e3cdb1;
+    color: #e3cdb1;
+    height: 3rem;
     padding-left: 3rem;
     padding-right: 3rem;
-    border:1px solid #e3cdb1;
-    background-color: #fafafa;
-    color: #e3cdb1;
     width: 100%;
-    height: 3rem;
 
     &:hover{
         background-color:#e3cdb1;

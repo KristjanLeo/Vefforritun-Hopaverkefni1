@@ -7,36 +7,36 @@
   @media (max-width: 560px){
     height: 520px;
   }
-  width: 100vw;
+  align-content: center;
   display: flex;
   flex-direction: column;
-  align-content: center;
   justify-content: center;
+  width: 100vw;
 
   h2 {
+    font-family: 'Playfair Display', serif;
     font-size: 3.75rem;
     font-weight: 700;
-    font-family: 'Playfair Display', serif;
     @media(max-width: 560px){
       font-size: 2rem;
     }
-    margin-top: 10px;
     margin-bottom: 10px;
+    margin-top: 10px;
   }
 
   .book__text {
     color: #5E5B69;
-    font-size: 18px;
     font-family: 'Poppins', sans-serif;
+    font-size: 18px;
     font-weight: 300;
     line-height: 32px;
   }
 }
 
 .book__container {
+  align-content: center;
   display: flex;
   flex-direction: column;
-  align-content: center;
   justify-content: center;
   overflow: visible;
 }
@@ -44,11 +44,11 @@
 .announcement-text {
   margin-top: 20%;
   @media(max-width: 560px){
-  margin-top: 40%;
+  align-content: center;
   display: flex;
   flex-direction: column;
-  align-content: center;
   justify-content: center;
+  margin-top: 40%;
   text-align: center;
   }
 }
@@ -62,12 +62,12 @@
 .book-img {
   margin-left: calc(7*8.333333% + 15px);
   img {
-    width: 100%;
     margin-top: -250px;
+    width: 100%;
   }
   @media(max-width: 560px){
-    margin: auto;
     margin-top: 270px;
+    margin: auto;
   }
 }
 
