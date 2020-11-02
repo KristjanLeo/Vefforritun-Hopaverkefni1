@@ -21,10 +21,17 @@
               </a>
             </div>
             <!--Hægri hlutinn-->
-            <div class="header-right-side">
-              <a href="recipe.html">Recipes</a>
-              <a href="videorecipe.html">Videos</a>
-              <a href="#aboutus">About us</a>
+            <div class="header-menu header-right-side">
+              <input type="checkbox" id="mobile-nav" class="header-mobile">
+              <label for="mobile-nav" class="header-mobile-trigger"><div class="header-hamburger"><div class="snua"></div></div></label>
+              <nav class="header-nav">
+                <ul>
+                  <li class="header-nav-item"><a href="index.html">Home</a></li>
+                  <li class="header-nav-item"><a href="recipe.html">Recipes</a></li>
+                  <li class="header-nav-item"><a href="videorecipe.html">Videos</a></li>
+                  <li class="header-nav-item"><a href="#aboutus">About us</a></li>
+                </ul>
+              </nav>
             </div>
           </div>
         </div>
@@ -33,7 +40,7 @@
             <!--> Hero Section-->
         <section class="hero">
             <div class="hero-grid">
-                <div class="hero-content">
+                <div class="hero-content col-6">
                     <div class="hero-eyebrow">
                         <p class="Hero-eyebrow"> Our latest recipe </p>
                     </div>
@@ -203,7 +210,7 @@
                     </div>
                       <div class="row horizontal-button">
                         <hr class="col col-4">
-                        <button id="latest-recipes-button" class="col col-2" onclick="window.location.href='/videorecipe.html'">
+                        <button class="col col-2 latest-recipes-button" onclick="window.location.href='/videorecipe.html'">
                           See more
                         </button>
                         <hr class="col col-4">
