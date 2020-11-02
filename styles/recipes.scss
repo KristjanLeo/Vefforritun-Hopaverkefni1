@@ -282,13 +282,14 @@ h4 {
   margin-top: 1.5rem;
 }
 
-.recipe_card {
+.Recipe_card {
     height: 100%;
     position: relative;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: white;
 }
 
 .recipe_text {
@@ -344,5 +345,15 @@ h4 {
 .recipe_work {
   .col{
     margin-bottom: 2rem;
+  }
+  margin-top: 1rem;
+}
+
+.latestrecipes__title{
+  h2 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    line-height: 53.32px;
   }
 }
