@@ -15,14 +15,14 @@
     line-height: 53.32px;
   }
 
-  .recipes__title {
+  .recipes-title {
     margin-bottom: 0;
     margin-top: 1.5rem;
   }
 }
 
 @media (max-width: 560px) {
-  .recipes__title {
+  .recipes-title {
     align-content: center;
     align-items: center;
     display: flex;
@@ -30,7 +30,7 @@
     margin: auto;
   }
 
-  .latestrecipes__title {
+  .latestrecipes-title {
     align-items: center;
     justify-content: center;
     margin: auto;
@@ -48,7 +48,7 @@
   }
 }
 
-.latestrecipes__title {
+.latestrecipes-title {
   display: flex;
   flex-direction: row;
 
@@ -101,7 +101,7 @@
     margin-bottom: 1rem;
   }
 
-  .recipe__info {
+  .recipe-info {
     display: flex;
     justify-content: space-between;
     margin-top: 1.5rem;
@@ -109,7 +109,7 @@
   }
 }
 
-.recipe__month {
+.recipe-month {
   color: #9b9b9b;
   font-family: 'Poppins', sans-serif;
   font-size: 0.875rem;
@@ -117,14 +117,16 @@
   line-height: 21px;
 }
 
-.recipe__name {
+.recipe-name {
   font-family: 'Playfair Display', serif;
   font-size: 22px;
+  font-style: normal;
   font-weight: 700;
+  font-weight: bold;
   line-height: 30px;
 }
 
-.recipe__info__left {
+.recipe-info-left {
   a {
     color: #e3cdb1;
     font-family: 'Poppins', sans-serif;
@@ -135,19 +137,19 @@
   }
 }
 
-.read_more_box3 {
+.read-more-box3 {
   margin-top: 27px;
 }
 
 // All recipes Read more link
 
-.read_more_box2 {
+.read-more-box2 {
   margin-top: 37px;
 }
 
 // Latest recipes page
 
-.All__recipes {
+.all-recipes {
   margin-bottom: 2rem;
 
   .col {
@@ -161,7 +163,7 @@
     line-height: 80px;
   }
 
-  .All__recipes__title {
+  .all-recipes-title {
     margin-bottom: 0;
     margin-top: 1.5rem;
   }
@@ -173,7 +175,7 @@
     width: calc(2 * 8.33333%);
   }
 
-  .right__side {
+  .right-side {
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -183,20 +185,20 @@
   }
 }
 
-.show__video__only {
+.show-video-only {
   font-family: 'Playfair Display', serif;
   font-size: 22px;
   font-weight: 700;
   line-height: 40px;
 }
 
-.checkbox__icon {
+.checkbox-icon {
   height: 18px;
   margin: 0.7rem 0.5rem;
   width: 18px;
 }
 
-.All__recipe {
+.all-recipe {
   background-color: #fff;
   display: flex;
   flex-direction: column;
@@ -220,7 +222,7 @@
     margin-bottom: 1rem;
   }
 
-  .All__info {
+  .all-info {
     display: flex;
     justify-content: space-between;
     margin-top: 1.5rem;
@@ -228,20 +230,20 @@
   }
 }
 
-.All__month {
+.all-month {
   color: #9b9b9b;
   font-family: 'Poppins', sans-serif;
   font-size: 0.875rem;
 }
 
-.All__name {
+.all-name {
   font-family: 'Playfair Display', serif;
   font-size: 22px;
   font-weight: 700;
   line-height: 30px;
 }
 
-.All__info__right {
+.all-info-right {
   a {
     color: #e3cdb1;
     font-family: 'Poppins', sans-serif;
@@ -256,7 +258,7 @@
 
 h4 {
   color: #000;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: normal;
@@ -264,12 +266,12 @@ h4 {
   margin-bottom: 20px;
 }
 
-.recipe_cards_all {
+.recipe-cards-all {
   margin-bottom: 0;
   margin-top: 1.5rem;
 }
 
-.Recipe_card {
+.recipe-card {
   background-color: #fff;
   display: flex;
   flex-direction: column;
@@ -287,37 +289,31 @@ h4 {
   }
 }
 
-.recipe_text {
+.recipe-text {
   display: flex;
   justify-content: space-between;
   margin-top: 1.5rem;
   width: 100%;
 }
 
-.recipe_text .recipe_text_left {
+.recipe-text .recipe-text-left {
   margin-left: 1rem;
 }
 
-.recipe_text .recipe_text_right {
+.recipe-text .recipe-text-right {
   margin-right: 1rem;
 }
 
-.recipe_date {
+.recipe-date {
   color: #9b9b9b;
   font-size: 0.875rem;
 }
 
-.recipe_name {
-  font-family: 'Playfair' Display;
-  font-style: normal;
-  font-weight: bold;
-}
-
-.read_more_box {
+.read-more-box {
   margin-top: 17px;
 }
 
-.read_more_right a {
+.read-more-right a {
   color: #e3cdb1;
   font-family: 'Poppins', sans-serif;
   font-size: 1rem;
@@ -325,22 +321,12 @@ h4 {
   line-height: 24px;
   margin-right: 26px;
   text-decoration: none;
-
 }
 
-.recipe_work {
-  col {
-    margin-bottom: 2rem;
-  }
-
+.recipe-work {
   margin-top: 1rem;
-}
 
-.latestrecipes__title{
-  h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 53.32px;
+  .col {
+    margin-bottom: 2rem;
   }
 }
