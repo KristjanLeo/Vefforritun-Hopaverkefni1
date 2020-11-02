@@ -9,8 +9,8 @@
   }
 
   h2 {
-    font-size: 40px;
     font-family: 'Playfair Display', serif;
+    font-size: 40px;
     font-weight: 700;
     line-height: 53.32px;
   }
@@ -56,28 +56,27 @@
 }
 
 .ingredients-marg-90px {
-  margin: 0;
-  margin-top: 90px;
-  height: 570px;
-  margin-left: 0;
   display: flex;
   flex-direction: column;
+  height: 570px;
   justify-content: space-between;
+  margin-left: 0;
+  margin-top: 90px;
+  margin: 0;
 }
 
 .recipe {
-  height: 100%;
-  position: relative;
-  width: 100%;
+  background-color: white;
   display: flex;
   flex-direction: column;
+  height: 100%;
   justify-content: space-between;
   background-color: white;
 
   img {
     background-color: #F6F6F6;
-    object-fit: cover;
     height: auto;
+    object-fit: cover;
   }
 
   &:last-child{
@@ -85,15 +84,15 @@
   }
 
   h3{
-    margin-bottom: 1rem;
     font-size: 1.375rem;
+    margin-bottom: 1rem;
   }
 
   .recipe__info {
     display: flex;
     justify-content: space-between;
-    width: 100%;
     margin-top: 1.5rem;
+    width: 100%;
   }
 
   .recipe__info .recipe__info__right {
@@ -107,26 +106,26 @@
 
 .recipe__month {
   color : #9B9B9B;
-  font-size: 0.875rem;
   font-family: 'Poppins', sans-serif;
+  font-size: 0.875rem;
   font-weight: 300;
   line-height: 21px;
 }
 
 .recipe__name{
   font-family: 'Playfair Display', serif;
-  font-weight: 700;
   font-size: 22px;
+  font-weight: 700;
   line-height: 30px;
 }
 .recipe__info__left {
   a {
     color : #E3CDB1;
-    text-decoration: none;
-    font-size: 1rem;
     font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 24px;
+    text-decoration: none;
   }
 }
 
@@ -150,8 +149,8 @@
   }
 
   h2 {
-    font-size: 60px;
     font-family: 'Playfair Display', serif;
+    font-size: 60px;
     font-weight: 700;
     line-height: 80px;
   }
@@ -167,12 +166,12 @@
     width: 100%;
   }
   .right__side {
-    margin-right: 1rem;
+    align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-right: 1rem;
     padding-left: 20px;
-    align-items: center;
   }
 }
 
@@ -185,23 +184,22 @@
 
 .checkbox__icon{
   height: 18px;
-  width: 18px;
   margin: 0.7rem 0.5rem;
+  width: 18px;
 }
 .All__recipe {
 
-  height: 100%;
-  position: relative;
-  width: 100%;
+  background-color: white;
   display: flex;
   flex-direction: column;
+  height: 100%;
   justify-content: space-between;
   background-color: white;
 
   img {
     background-color: #F6F6F6;
-    object-fit: cover;
     height: auto;
+    object-fit: cover;
   }
 
   &:last-child{
@@ -209,15 +207,15 @@
   }
 
   h3{
-    margin-bottom: 1rem;
     font-size: 1.375rem;
+    margin-bottom: 1rem;
   }
 
   .All__info {
     display: flex;
     justify-content: space-between;
-    width: 100%;
     margin-top: 1.5rem;
+    width: 100%;
   }
 
   .All__info .All__info__left {
@@ -231,50 +229,49 @@
 
 .All__month {
   color : #9B9B9B;
-  font-size: 0.875rem;
   font-family: 'Poppins', sans-serif;
+  font-size: 0.875rem;
 }
 
 .All__name{
   font-family: 'Playfair Display', serif;
-  font-weight: 700;
   font-size: 22px;
+  font-weight: 700;
   line-height: 30px;
 }
 .All__info__right {
   a {
     color : #E3CDB1;
-    text-decoration: none;
-    font-size: 1rem;
     font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 24px;
+    text-decoration: none;
   }
 }
 
 .All__name{
+  color: black;
   font-size: 40px;
   line-height: 53px;
-  color: black;
 }
 // Styles for the recipes on the recipe html
 
 h4 {
+  color: #000000;
   font-family: 'Poppins';
+  font-size: 18px;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
   line-height: 17px;
   margin-bottom: 20px;
-
-  color: #000000;
 }
 
 .container{
   display: flex;
   flex-direction: row;
-  width: calc(2*8.33333%);
   justify-content: space-between;
+  width: calc(2*8.33333%);
  }
 
 .recipe_cards_all {
@@ -288,6 +285,7 @@ h4 {
     width: 100%;
     display: flex;
     flex-direction: column;
+    height: 100%;
     justify-content: space-between;
     background-color: white;
 }
@@ -295,8 +293,8 @@ h4 {
 .recipe_text {
   display: flex;
   justify-content: space-between;
-  width: 100%;
   margin-top: 1.5rem;
+  width: 100%;
 }
 
 .recipe_text .recipe_text_left {
@@ -324,20 +322,20 @@ h4 {
 
 .read_more_right a {
   color: #E3CDB1;
-  text-decoration: none;
-  font-size: 1rem;
   font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 24px;
   margin-right: 26px;
+  text-decoration: none;
 }
 .Recipe_card{
   img {
     background-color: #F6F6F6;
-    object-fit: cover;
     height: auto;
     max-height: 390px;
     max-width: 409px;
+    object-fit: cover;
   }
 }
 
@@ -354,6 +352,15 @@ h4 {
     font-size: 40px;
     font-weight: 700;
     font-family: 'Playfair Display', serif;
+    line-height: 53.32px;
+  }
+}
+
+.latestrecipes__title{
+  h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: 700;
     line-height: 53.32px;
   }
 }
