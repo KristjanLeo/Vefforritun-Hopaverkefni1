@@ -21,37 +21,50 @@
   }
 }
 
-@media(max-width: 560px){
-  .recipes__title{
-    margin: auto;
+@media (max-width: 560px) {
+  .recipes__title {
     align-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
-  }
-  .latestrecipes__title{
     margin: auto;
-    width: 100%;
-    text-align: center;
+  }
+
+  .latestrecipes__title {
     align-items: center;
     justify-content: center;
-    :last-child{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+
+    :last-child {
       font-size: 30px;
       margin-left: 5px;
     }
-    :first-child{
+
+    :first-child {
       font-size: 30px;
     }
   }
 }
-.latestrecipes__title{
+
+.latestrecipes__title {
   display: flex;
   flex-direction: row;
-  :last-child{
+
+  :last-child {
     margin-left: 10px;
   }
-  :first-child{
-    color: #D0D0D0;
+
+  :first-child {
+    color: #d0d0d0;
+  }
+
+  h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 53.32px;
   }
 }
 
@@ -62,28 +75,28 @@
   justify-content: space-between;
   margin-left: 0;
   margin-top: 90px;
-  margin: 0;
 }
 
 .recipe {
-  background-color: white;
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   height: 100%;
   justify-content: space-between;
-  background-color: white;
+  position: relative;
+  width: 100%;
 
   img {
-    background-color: #F6F6F6;
+    background-color: #f6f6f6;
     height: auto;
     object-fit: cover;
   }
 
-  &:last-child{
+  &:last-child {
     margin-right: 0;
   }
 
-  h3{
+  h3 {
     font-size: 1.375rem;
     margin-bottom: 1rem;
   }
@@ -94,33 +107,26 @@
     margin-top: 1.5rem;
     width: 100%;
   }
-
-  .recipe__info .recipe__info__right {
-    margin-left: 1rem;
-  }
-
-  .recipe__info .recipe__info__left {
-    margin-right: 1rem;
-  }
 }
 
 .recipe__month {
-  color : #9B9B9B;
+  color: #9b9b9b;
   font-family: 'Poppins', sans-serif;
   font-size: 0.875rem;
   font-weight: 300;
   line-height: 21px;
 }
 
-.recipe__name{
+.recipe__name {
   font-family: 'Playfair Display', serif;
   font-size: 22px;
   font-weight: 700;
   line-height: 30px;
 }
+
 .recipe__info__left {
   a {
-    color : #E3CDB1;
+    color: #e3cdb1;
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     font-weight: 400;
@@ -130,12 +136,12 @@
 }
 
 .read_more_box3 {
-  margin-top:27px;
+  margin-top: 27px;
 }
 
 // All recipes Read more link
 
-.read_more_box2{
+.read_more_box2 {
   margin-top: 37px;
 }
 
@@ -159,12 +165,14 @@
     margin-bottom: 0;
     margin-top: 1.5rem;
   }
+
   .container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 100%;
+    width: calc(2 * 8.33333%);
   }
+
   .right__side {
     align-items: center;
     display: flex;
@@ -175,38 +183,39 @@
   }
 }
 
-.show__video__only{
+.show__video__only {
   font-family: 'Playfair Display', serif;
   font-size: 22px;
   font-weight: 700;
   line-height: 40px;
 }
 
-.checkbox__icon{
+.checkbox__icon {
   height: 18px;
   margin: 0.7rem 0.5rem;
   width: 18px;
 }
-.All__recipe {
 
-  background-color: white;
+.All__recipe {
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   height: 100%;
   justify-content: space-between;
-  background-color: white;
+  position: relative;
+  width: 100%;
 
   img {
-    background-color: #F6F6F6;
+    background-color: #f6f6f6;
     height: auto;
     object-fit: cover;
   }
 
-  &:last-child{
+  &:last-child {
     margin-right: 0;
   }
 
-  h3{
+  h3 {
     font-size: 1.375rem;
     margin-bottom: 1rem;
   }
@@ -217,31 +226,24 @@
     margin-top: 1.5rem;
     width: 100%;
   }
-
-  .All__info .All__info__left {
-    margin-left: 1rem;
-  }
-
-  .All__info .All__info__right {
-    margin-right: 1rem;
-  }
 }
 
 .All__month {
-  color : #9B9B9B;
+  color: #9b9b9b;
   font-family: 'Poppins', sans-serif;
   font-size: 0.875rem;
 }
 
-.All__name{
+.All__name {
   font-family: 'Playfair Display', serif;
   font-size: 22px;
   font-weight: 700;
   line-height: 30px;
 }
+
 .All__info__right {
   a {
-    color : #E3CDB1;
+    color: #e3cdb1;
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     font-weight: 400;
@@ -250,15 +252,10 @@
   }
 }
 
-.All__name{
-  color: black;
-  font-size: 40px;
-  line-height: 53px;
-}
 // Styles for the recipes on the recipe html
 
 h4 {
-  color: #000000;
+  color: #000;
   font-family: 'Poppins';
   font-size: 18px;
   font-style: normal;
@@ -267,27 +264,27 @@ h4 {
   margin-bottom: 20px;
 }
 
-.container{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: calc(2*8.33333%);
- }
-
 .recipe_cards_all {
   margin-bottom: 0;
   margin-top: 1.5rem;
 }
 
 .Recipe_card {
-    height: 100%;
-    position: relative;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    justify-content: space-between;
-    background-color: white;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+
+  img {
+    background-color: #f6f6f6;
+    height: auto;
+    max-height: 390px;
+    max-width: 409px;
+    object-fit: cover;
+  }
 }
 
 .recipe_text {
@@ -306,7 +303,7 @@ h4 {
 }
 
 .recipe_date {
-  color : #9B9B9B;
+  color: #9b9b9b;
   font-size: 0.875rem;
 }
 
@@ -321,39 +318,22 @@ h4 {
 }
 
 .read_more_right a {
-  color: #E3CDB1;
+  color: #e3cdb1;
   font-family: 'Poppins', sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 24px;
   margin-right: 26px;
   text-decoration: none;
-}
-.Recipe_card{
-  img {
-    background-color: #F6F6F6;
-    height: auto;
-    max-height: 390px;
-    max-width: 409px;
-    object-fit: cover;
-  }
-}
 
+}
 
 .recipe_work {
-  .col{
+  col {
     margin-bottom: 2rem;
   }
-  margin-top: 1rem;
-}
 
-.latestrecipes__title{
-  h2 {
-    font-size: 40px;
-    font-weight: 700;
-    font-family: 'Playfair Display', serif;
-    line-height: 53.32px;
-  }
+  margin-top: 1rem;
 }
 
 .latestrecipes__title{
