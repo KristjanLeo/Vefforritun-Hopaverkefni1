@@ -1,200 +1,199 @@
 footer {
   bottom: -740px;
   width: 100%;
+
+  .button {
+    background-color: $black;
+    border: 1px solid $baise;
+    color: $baise;
+    height: 52px;
+    width: 70%;
+
+    @media (max-width: 1000px) {
+      margin-top: -60px;
+      width: 192px;
+    }
+  }
+  .button:hover {
+    background-color: $baise;
+    color: $black;
+    transition: 300ms ease-in-out;
+  }
 }
 
 .black {
-  background-color: black;
+  background-color: $black;
 }
 
 .newsletter {
-  background-color: black;
-  color: white;
+  background-color: $black;
+  color: $white;
   height: 340px;
-  text-align: left;
   justify-content: center;
+  text-align: left;
 }
 
- /* subscribe text*/
+/* subscribe text */
 
 .subscribe {
-    font-family: 'Playfair Display', serif;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 53px;
-    margin-bottom: 140px;
-    margin-top: auto;
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 53px;
+  margin-bottom: 140px;
+  margin-top: auto;
 
-    @media (max-width:1000px) {
-        margin-bottom: 65px;
-    }
-    @media (max-width: 560px) {
-        text-align: center;
-        font-size: 20px;
-        line-height: normal;   
-    }
+  @media (max-width: 1000px) {
+    margin-bottom: 65px;
+  }
+
+  @media (max-width: 560px) {
+    font-size: 20px;
+    line-height: normal;
+    text-align: center;
+  }
 }
 
 .craving {
-    font-size: 20px;
-    color:bisque;
-    @media (max-width: 560px) {
-        font-size: 16px;
-    }
+  color: $baise;
+  font-size: 20px;
+
+  @media (max-width: 560px) {
+    font-size: 16px;
+  }
 }
 
-/*email*/
+/* email */
 
 input {
-    background-color:black;
-    border: none;
-    border-bottom: 2px solid white;
-    color:white;
-    outline: none;
-    padding: 6px;
-}
-
-.placeholder2 {
-    ::placeholder {
-        color:white;
-      }
+  background-color: $black;
+  border: 0;
+  border-bottom: 2px solid $white;
+  color: $white;
+  outline: none;
+  padding: 6px;
 }
 
 ::placeholder {
-    color:grey;
+  color: $grey;
+}
+
+.placeholder2 {
+  ::placeholder {
+    color: $white;
+  }
 }
 
 .email-margin {
-    margin-top: 60px;
-    @media (max-width:1000px) {
-        @media (min-width:560px) {
-            margin-right: 100px;
-        }
+  margin-top: 60px;
+
+  @media (max-width: 1000px) {
+    @media (min-width: 560px) {
+      margin-right: 100px;
     }
-    @media (max-width:560px) {
-        display: flex;
-        justify-content: center;
-        margin-top:-105px;
-    }
+  }
+
+  @media (max-width: 560px) {
+    display: flex;
+    justify-content: center;
+    margin-top: -105px;
+  }
 }
 
 .email {
-padding-top: 6px;
+  padding-top: 6px;
 }
 
-.email__header {
+.email-header {
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 21px;
 }
 
-.email__example {
-    border-bottom: 1px solid white;
-    padding: 6px;
-    width: 50%;
+.email-example {
+  border-bottom: 1px solid $white;
+  padding: 6px;
+  width: 50%;
 }
 
-/*Subscribe button*/
+/* Subscribe button */
 
-footer {
-    .button {
-        background-color:black;
-        border:1px solid #E3CDB1;
-        color:#E3CDB1;
-        height: 52px;
-        width: 70%;
-        @media (max-width: 1000px) {
-            margin-top: -60px;
-            width: 192px;
-        }
-    }
- }
+.button-margin {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: auto;
+  padding: 0;
 
- .button-margin {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin:auto;
-    padding:0;  
-    @media (max-width:560px) {
-        justify-content: center;
-        margin-top:auto;
-    }
-}
-
-footer {
-    .button:hover {
-      background-color:  #E3CDB1;;
-      color: black;
-      transition: 300ms ease-in-out;
-    }
+  @media (max-width: 560px) {
+    justify-content: center;
+    margin-top: auto;
   }
-  
+}
 
-/*Social*/
+/* Social */
 
 .social {
-    background-color: white;
-    height: 330px;
-    text-align: center;
-    width: 100%;
+  background-color: $white;
+  height: 330px;
+  text-align: center;
+  width: 100%;
 }
 
 .media-image {
-    align-items: center;
-    display: flex;
-    height: 50px;
-    justify-content: center;
-    position: relative;
+  align-items: center;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  position: relative;
 }
 
 .inner-image {
-    position:absolute;
-
+  position: absolute;
 }
 
 .oval-image {
-    position:absolute;
+  position: absolute;
 }
 
 .yamyam {
-    color: lightgrey;
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-    margin-top:10px;
+  color: $lightgrey;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  margin-top: 10px;
 }
 
 .flex-zone {
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-    width: 150px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 150px;
 }
 
 .join {
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    margin-bottom: 30px;
-    margin-top: 105px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  margin-bottom: 30px;
+  margin-top: 105px;
 }
 
 #email {
-    font-family: 'Playfair Display', serif;
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 30px;
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 30px;
 }
 
 #email__example {
-    font-family: 'Playfair Display', serif;
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 30px;
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 30px;
 }
 
-@media (max-width:560px) {
-    .invisible {
+@media (max-width: 560px) {
+  .invisible {
     visibility: hidden;
-    }
+  }
 }
