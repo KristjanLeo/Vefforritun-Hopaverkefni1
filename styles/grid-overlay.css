@@ -29,12 +29,12 @@ html::before {
   left: 0;
   margin-left: auto;
   margin-right: auto;
-  max-width: var(--max_width);
   min-height: 100vh;
   pointer-events: none;
   position: absolute;
   right: 0;
   top: 0;
   width: calc(100% - (2 * var(--offset)));
+  max-width: var(--max_width);
   z-index: 1000;
 }
