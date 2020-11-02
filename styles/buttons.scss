@@ -2,41 +2,37 @@
 
 // Styles for the buttons
 
-button{
-    padding-left: 1rem;
-    padding-right: 1rem;
-    margin-top: 3rem;
-    border:1px solid $button_beige;
-    background-color: $button_white;
-    color: $button_beige;
-    width: 50%;
-    height: 3rem;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
+button {
+  background-color: $button-white;
+  border: 1px solid $button-beige;
+  color: $button-beige;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 3rem;
+  line-height: 24px;
+  margin-top: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 50%;
 
-    &:hover{
-        background-color: $button_beige;
-        color: $button_white;
-        transition: $button_transition;
-    }
+  &:hover {
+    background-color: $button-beige;
+    color: $button-white;
+    transition: $button-transition;
+  }
 }
 
-
-#latest-recipes-button{
-    margin-top: 0;
-    width: calc(30px + 2*8.333333%);
-    margin: 0 $one_col;
-    z-index: 1;
+.latest-recipes-button {
+  margin: 0 $one-col;
+  width: calc(30px + 2 * 8.333333%);
+  z-index: 1;
 }
 
 .horizontal-button {
-    hr {
-        margin-top: 1.5rem;
-        width: calc(4*8.333333% - 15px);
-        color: $button_black;
-    }
+  hr {
+    color: $button-black;
+    margin-top: 1.5rem;
+    width: calc(4 * 8.333333% - 15px);
+  }
 }
-
-

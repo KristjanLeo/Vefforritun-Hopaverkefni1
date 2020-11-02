@@ -9,20 +9,20 @@
   }
 
   h2 {
-    font-size: 40px;
     font-family: 'Playfair Display', serif;
+    font-size: 40px;
     font-weight: 700;
     line-height: 53.32px;
   }
 
-  .recipes__title {
+  .recipes-title {
     margin-bottom: 0;
     margin-top: 1.5rem;
   }
 }
 
 @media (max-width: 560px) {
-  .recipes__title {
+  .recipes-title {
     align-content: center;
     align-items: center;
     display: flex;
@@ -30,7 +30,7 @@
     margin: auto;
   }
 
-  .latestrecipes__title {
+  .latestrecipes-title {
     align-items: center;
     justify-content: center;
     margin: auto;
@@ -48,7 +48,7 @@
   }
 }
 
-.latestrecipes__title {
+.latestrecipes-title {
   display: flex;
   flex-direction: row;
 
@@ -69,90 +69,87 @@
 }
 
 .ingredients-marg-90px {
-  margin: 0;
-  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
   height: 570px;
-  margin-left: 0;
-  display: flex;
-  flex-direction: column;
   justify-content: space-between;
+  margin-left: 0;
+  margin-top: 90px;
 }
 
 .recipe {
-  height: 100%;
-  position: relative;
-  width: 100%;
-}
-
-.recipe {
+  background-color: #fff;
   display: flex;
   flex-direction: column;
+  height: 100%;
   justify-content: space-between;
   position: relative;
   width: 100%;
 
   img {
-    background-color: #F6F6F6;
-    object-fit: cover;
+    background-color: #f6f6f6;
     height: auto;
+    object-fit: cover;
   }
 
   &:last-child {
     margin-right: 0;
   }
 
-  h3{
-    margin-bottom: 1rem;
+  h3 {
     font-size: 1.375rem;
+    margin-bottom: 1rem;
   }
 
-  .recipe__info {
+  .recipe-info {
     display: flex;
     justify-content: space-between;
-    width: 100%;
     margin-top: 1.5rem;
+    width: 100%;
   }
 }
 
-.recipe__month {
-  color : #9B9B9B;
-  font-size: 0.875rem;
+.recipe-month {
+  color: #9b9b9b;
   font-family: 'Poppins', sans-serif;
+  font-size: 0.875rem;
   font-weight: 300;
   line-height: 21px;
 }
 
-.recipe__name {
+.recipe-name {
   font-family: 'Playfair Display', serif;
-  font-weight: 700;
   font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  font-weight: bold;
   line-height: 30px;
 }
 
-.recipe__info__left {
+.recipe-info-left {
   a {
-    color : #E3CDB1;
-    text-decoration: none;
-    font-size: 1rem;
+    color: #e3cdb1;
     font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 24px;
+    text-decoration: none;
   }
 }
 
-.read_more_box3 {
+.read-more-box3 {
   margin-top: 27px;
 }
 
 // All recipes Read more link
 
-.read_more_box2 {
+.read-more-box2 {
   margin-top: 37px;
 }
 
 // Latest recipes page
 
-.All__recipes {
+.all-recipes {
   margin-bottom: 2rem;
 
   .col {
@@ -160,13 +157,13 @@
   }
 
   h2 {
-    font-size: 60px;
     font-family: 'Playfair Display', serif;
+    font-size: 60px;
     font-weight: 700;
     line-height: 80px;
   }
 
-  .All__recipes__title {
+  .all-recipes-title {
     margin-bottom: 0;
     margin-top: 1.5rem;
   }
@@ -178,122 +175,110 @@
     width: calc(2 * 8.33333%);
   }
 
-  .right__side {
-    margin-right: 1rem;
+  .right-side {
+    align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-right: 1rem;
     padding-left: 20px;
-    align-items: center;
   }
 }
 
-.show__video__only {
+.show-video-only {
   font-family: 'Playfair Display', serif;
   font-size: 22px;
   font-weight: 700;
   line-height: 40px;
 }
 
-.checkbox__icon {
+.checkbox-icon {
   height: 18px;
-  width: 18px;
   margin: 0.7rem 0.5rem;
+  width: 18px;
 }
 
-.All__recipe {
-  height: 100%;
-  position: relative;
-  width: 100%;
+.all-recipe {
+  background-color: #fff;
   display: flex;
   flex-direction: column;
+  height: 100%;
   justify-content: space-between;
+  position: relative;
+  width: 100%;
 
   img {
-    background-color: #F6F6F6;
-    object-fit: cover;
+    background-color: #f6f6f6;
     height: auto;
+    object-fit: cover;
   }
 
   &:last-child {
     margin-right: 0;
   }
 
-  h3{
-    margin-bottom: 1rem;
+  h3 {
     font-size: 1.375rem;
+    margin-bottom: 1rem;
   }
 
-  .All__info {
+  .all-info {
     display: flex;
     justify-content: space-between;
-    width: 100%;
     margin-top: 1.5rem;
+    width: 100%;
   }
 }
 
-.All__month {
-  color : #9B9B9B;
-  font-size: 0.875rem;
+.all-month {
+  color: #9b9b9b;
   font-family: 'Poppins', sans-serif;
+  font-size: 0.875rem;
 }
 
-.All__name {
+.all-name {
   font-family: 'Playfair Display', serif;
-  font-weight: 700;
   font-size: 22px;
+  font-weight: 700;
   line-height: 30px;
 }
 
-.All__info__right {
+.all-info-right {
   a {
-    color : #E3CDB1;
-    text-decoration: none;
-    font-size: 1rem;
+    color: #e3cdb1;
     font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 24px;
+    text-decoration: none;
   }
 }
 
-
-.All__name{
-  font-size: 40px;
-  line-height: 53px;
-  color: black;
-}
 // Styles for the recipes on the recipe html
 
 h4 {
-  font-family: 'Poppins';
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
   line-height: 17px;
   margin-bottom: 20px;
-  color: #000000;
 }
 
-.container{
-  display: flex;
-  flex-direction: row;
-  width: calc(2*8.33333%);
-  justify-content: space-between;
- }
-
-.recipe_cards_all {
+.recipe-cards-all {
   margin-bottom: 0;
   margin-top: 1.5rem;
 }
 
-.Recipe_card {
-    height: 100%;
-    position: relative;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: white;
+.recipe-card {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
 
   img {
     background-color: #f6f6f6;
@@ -304,60 +289,44 @@ h4 {
   }
 }
 
-.recipe_text {
+.recipe-text {
   display: flex;
   justify-content: space-between;
-  width: 100%;
   margin-top: 1.5rem;
+  width: 100%;
 }
 
-.recipe_text .recipe_text_left {
+.recipe-text .recipe-text-left {
   margin-left: 1rem;
 }
 
-.recipe_text .recipe_text_right {
+.recipe-text .recipe-text-right {
   margin-right: 1rem;
 }
 
-.recipe_date {
+.recipe-date {
   color: #9b9b9b;
   font-size: 0.875rem;
 }
 
-.recipe_name {
-  font-family: 'Playfair' Display;
-  font-style: normal;
-  font-weight: bold;
-}
-
-.read_more_box {
+.read-more-box {
   margin-top: 17px;
 }
 
-.read_more_right a {
-  color: #E3CDB1;
-  text-decoration: none;
-  font-size: 1rem;
+.read-more-right a {
+  color: #e3cdb1;
   font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 24px;
   margin-right: 26px;
+  text-decoration: none;
 }
 
-.Recipe_card{
-  img {
-    background-color: #F6F6F6;
-    object-fit: cover;
-    height: auto;
-    max-height: 390px;
-    max-width: 409px;
-  }
-}
+.recipe-work {
+  margin-top: 1rem;
 
-
-.recipe_work {
-  col {
+  .col {
     margin-bottom: 2rem;
   }
-  margin-top: 1rem;
 }
