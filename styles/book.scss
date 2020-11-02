@@ -63,11 +63,14 @@
   margin-left: calc(7*8.333333% + 15px);
   img {
     margin-top: -250px;
-    width: 100%;
+    background: rgba(0, 0, 0, 0.0001);
+    box-shadow: -31px 18px 0px #ececec;
   }
   @media(max-width: 560px){
     margin-top: 270px;
-    margin: auto;
+    img{
+      box-shadow: -13px 8px 0px #ececec;
+    }
   }
 }
 
