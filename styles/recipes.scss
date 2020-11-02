@@ -2,6 +2,7 @@
 
 .recipes {
   margin-bottom: 2rem;
+  margin-top: 2rem;
 
   .col {
     margin-bottom: 2rem;
@@ -17,6 +18,40 @@
   .recipes__title {
     margin-bottom: 0;
     margin-top: 1.5rem;
+  }
+}
+
+@media(max-width: 560px){
+  .recipes__title{
+    margin: auto;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .latestrecipes__title{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    :last-child{
+      font-size: 30px;
+      margin-left: 5px;
+    }
+    :first-child{
+      font-size: 30px;
+    }
+  }
+}
+.latestrecipes__title{
+  display: flex;
+  flex-direction: row;
+  :last-child{
+    margin-left: 10px;
+  }
+  :first-child{
+    color: #D0D0D0;
   }
 }
 
