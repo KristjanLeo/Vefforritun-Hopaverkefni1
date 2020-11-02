@@ -2,22 +2,22 @@
 // Global styles
 
 main {
+  background-color: #fafafa;
   display: block;
-  padding-right: 10px;
   padding-left: 10px;
-  background-color: #FAFAFA;
+  padding-right: 10px;
 }
 
-.main_latest {
-  padding-left: 0px;
-  padding-right: 0px;
+.main-latest {
   margin-top: 4.5rem;
+  padding-left: 0;
+  padding-right: 0;
 }
 
-.main__video{
+.main-video {
+  padding-left: 0;
+  padding-right: 0;
   width: 100%;
-  padding-left: 0px;
-  padding-right: 0px;
 }
 
 * {
@@ -30,15 +30,14 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
-  font-size: $default_font_size;
+  font-size: $default-font-size;
   justify-content: center;
 }
 
-
 .eyebrow {
-  font-size: $default_font_size;
-  color: #E3CDB1;
+  color: #e3cdb1;
   font-family: 'Poppins', sans-serif;
+  font-size: $default-font-size;
   font-weight: 500;
   line-height: 24px;
 }
