@@ -30,14 +30,14 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
-  font-size: $default_font_size;
+  font-size: $default-font-size;
   justify-content: center;
 }
 
 .eyebrow {
   color: #e3cdb1;
   font-family: 'Poppins', sans-serif;
-  font-size: $default_font_size;
+  font-size: $default-font-size;
   font-weight: 500;
   line-height: 24px;
 }
