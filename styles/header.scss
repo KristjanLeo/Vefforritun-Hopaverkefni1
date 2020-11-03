@@ -169,6 +169,15 @@ button {
   }
 }
 
+@media only screen and (max-width: 560px){
+  .header-nav-item a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Playfair-Display', serif;
+    font-weight: 700;
+  }
+}
+
 //Mobile View
 @media only screen and (max-width: 560px) {
   .header {
@@ -247,10 +256,19 @@ button {
     }
 
     &-nav {
-      flex-direction: column;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      display: flex;
+      transform: translateY(-100%);
+      transition: transform 300ms ease-in-out;
+      align-items: center;
       height: 100vh;
+      flex-direction: column;
       justify-content: space-around;
       list-style: none;
+
     }
 
     &-nav-item {
@@ -322,5 +340,5 @@ button {
     &-button button {
       background-color: transparent;
     }
-  }
-}
+
+
