@@ -7,11 +7,11 @@
   width: 100%;
   z-index: 9999;
 
-  &__button {
+  &-button {
     max-width: 50%;
   }
 
-  &__row {
+  &-row {
     display: flex;
     max-width: 1310px;
     width: calc(100% + 30px);
@@ -21,13 +21,13 @@
     margin-bottom: 0 !important;
   }
 
-  &__grid {
+  &-grid {
     display: flex;
     margin: 0 auto;
     width: 100%;
   }
 
-  &__right__side a {
+  &-right-side a {
     align-self: flex-end;
     margin-right: 15px;
     color: #9B9B9B;
@@ -41,17 +41,17 @@
     background: #fafafa;
   }
 
-  &__nav {
+  &-nav {
     display: flex;
     justify-content: space-between;
     list-style: none;  
-    &__item:first-child {
+    &-item:first-child {
       display: none;
     }
   }
-  &__mobile {
+  &-mobile {
     display: none;
-    &__trigger {
+    &-trigger {
       display: none;
     }
   } 
@@ -64,7 +64,7 @@
     justify-content: space-between;
   }
 
-  &__left__side {
+  &-left-side {
     margin-left: 1rem;
     z-index: 100;
   }
@@ -76,7 +76,7 @@
   background-repeat: no-repeat;
   background-position: bottom right;
   width: 100%;
-  &__grid {
+  &-grid {
     max-width: 1290px;
     margin: 0 auto;
     min-height: 800px;
@@ -85,12 +85,12 @@
     margin-top: 4.5rem;
   }
 
-  &__content {
+  &-content {
     display: flex;
     flex-direction: column;
     align-content: center;
   }
-  &__eyebrow {
+  &-eyebrow {
     font-size: 1rem;
     color: #E3CDB1;
     font-family: 'Poppins', sans-serif;
@@ -98,28 +98,28 @@
     font-weight: 500;
   }
     
-  &__title {
+  &-title {
     font-size: 3.75rem;
     font-family: 'Playfair Display', serif;
     line-height: 80px;
     font-weight: 700;
   }
 
-  &__text {
+  &-text {
     font-size: 1.125rem;
     color: #5E5B69;
     font-weight: 300;
     font-family: 'Poppins', sans-serif;
   }
 
-  &__button {
+  &-button {
     & button {
       background-color:transparent;
       max-width: 15.625rem;
     }
   }
 
-  &__icons {
+  &-icons {
     justify-content: space-between;
     display: flex;
     flex-direction: row;
@@ -138,7 +138,7 @@
     }
   }
 
-  &__icon {
+  &-icon {
     display: flex;
     flex-direction:row;
     flex: 1;
@@ -153,22 +153,22 @@
 //Mobile View
 @media only screen and (max-width: 560px) {
   .header {
-    &__mobile:checked ~ nav {
+    &-mobile:checked ~ nav {
       transform: translateY(0rem);    
     }
      
-    &__mobile:checked + .snua {
+    &-mobile:checked + .snua {
       transform:rotate(135deg);
     }
             
-    &__mobile__trigger {
+    &-mobile-trigger {
       display: block;
       position: fixed;
       z-index: 100;
       top: 2rem;      
     }
         
-    &__hamburger {
+    &-hamburger {
       position: absolute;
       display: flex;
       align-items: center;
@@ -227,17 +227,17 @@
       align-items: center;
     }
 
-    &__nav {
+    &-nav {
       height: 100vh;
       flex-direction: column;
       justify-content: space-around;
       list-style: none;
             
-      &__item:first-of-type {
+      &-item:first-of-type {
         display: flex;
       }
             
-      &__item {
+      &-item {
         display: flex;
         justify-content: center;
         padding: 1rem;
@@ -261,7 +261,7 @@
   .hero {  
     background-position: bottom left;
         
-    &__content {
+    &-content {
       max-width: none;
       width: 100% !important;
       display: flex;
@@ -270,21 +270,21 @@
       margin-bottom: 15rem;
     }
   
-    &__eyebrow {
+    &-eyebrow {
       display: flex;
       justify-content: center;
     }
 
-    &__text {
+    &-text {
       display: none;
     }
         
-    &__title {
+    &-title {
       display: flex;
       justify-content: center;
     }
 
-    &__icons {
+    &-icons {
       flex-direction: column;
       width: 100%;
   
@@ -293,7 +293,7 @@
       }
     }
 
-    &__button {
+    &-button {
       max-width: none;
       display: flex;
       justify-content: center;
