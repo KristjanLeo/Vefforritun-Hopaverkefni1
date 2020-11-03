@@ -96,6 +96,8 @@ button {
   background-repeat: no-repeat;
   width: 100%;
 
+
+
   &-grid {
     align-items: center;
     display: flex;
@@ -340,3 +342,5 @@ button {
     &-button button {
       background-color: transparent;
     }
+  }
+}
