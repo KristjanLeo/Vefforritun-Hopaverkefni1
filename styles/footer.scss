@@ -14,10 +14,25 @@ footer {
       width: 192px;
     }
   }
+
   .button:hover {
     background-color: $baise;
     color: $black;
     transition: 300ms ease-in-out;
+  }
+
+  hr{
+    margin-top: 50px;
+    border: 1px solid $lightgrey;
+  }
+
+  input {
+    background-color: $black;
+    border: 0;
+    border-bottom: 2px solid $white;
+    color: $white;
+    outline: none;
+    padding: 6px;
   }
 }
 
@@ -64,15 +79,6 @@ footer {
 }
 
 /* email */
-
-input {
-  background-color: $black;
-  border: 0;
-  border-bottom: 2px solid $white;
-  color: $white;
-  outline: none;
-  padding: 6px;
-}
 
 ::placeholder {
   color: $grey;
@@ -185,7 +191,7 @@ input {
   line-height: 30px;
 }
 
-#email__example {
+#email-example {
   font-family: 'Playfair Display', serif;
   font-size: 22px;
   font-weight: 700;
